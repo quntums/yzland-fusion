@@ -1,0 +1,30 @@
+{
+  "slug": "sahara-3-days",
+  "title": "Sahara 3-Day Experience",
+  "price_from": 450,
+  "duration": "3 Days",
+  "route": [
+    "Marrakech → Atlas Mountains → Dades Valley",
+    "Dades → Merzouga → Camel trek",
+    "Sunrise → Return to Marrakech"
+  ],
+  "highlights": [
+    "Camel trekking at sunset",
+    "Luxury desert camp",
+    "Atlas Mountains crossing"
+  ],
+  "includes": [
+    "Private transport",
+    "Luxury desert camp",
+    "Guide & meals"
+  ],
+  "images": [
+    "/images/sahara-sunset-traveler.jpg",
+    "/images/luxury-desert-camp.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://payment.example.com/CLIENT_WILL_PROVIDE"
+  }
+}

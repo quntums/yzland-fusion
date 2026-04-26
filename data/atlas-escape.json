@@ -1,0 +1,29 @@
+{
+  "slug": "atlas-escape",
+  "title": "Atlas Mountains Escape",
+  "price_from": 350,
+  "duration": "3 Days",
+  "route": [
+    "Marrakech → Atlas Mountains",
+    "Hiking & village visits",
+    "Return to Marrakech"
+  ],
+  "highlights": [
+    "Panoramic mountain views",
+    "Berber village visits",
+    "Guided hikes"
+  ],
+  "includes": [
+    "Transport",
+    "Local guide",
+    "Mountain lodge stay"
+  ],
+  "images": [
+    "/images/atlas-mountains.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://payment.example.com/CLIENT_WILL_PROVIDE"
+  }
+}

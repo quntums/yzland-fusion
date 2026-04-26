@@ -1,0 +1,30 @@
+{
+  "slug": "imperial-cities",
+  "title": "Imperial Cities Tour",
+  "price_from": 600,
+  "duration": "4 Days",
+  "route": [
+    "Marrakech exploration",
+    "Travel to Fes via Meknes",
+    "Fes guided tour",
+    "Rabat and Casablanca"
+  ],
+  "highlights": [
+    "Historic medinas",
+    "Cultural immersion",
+    "Expert local guides"
+  ],
+  "includes": [
+    "Private transport",
+    "City guides",
+    "Accommodation & meals"
+  ],
+  "images": [
+    "/images/marrakech-medina.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://payment.example.com/CLIENT_WILL_PROVIDE"
+  }
+}
