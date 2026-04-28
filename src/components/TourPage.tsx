@@ -11,11 +11,12 @@ interface TourPageProps {
 }
 
 export default function TourPage({ tour, testimonials }: TourPageProps) {
+  const whatsappMsg = encodeURIComponent((tour as any).whatsapp_message || 'I want to book the ' + tour.title);
   return (
     <main className="max-w-5xl mx-auto px-4 py-12 space-y-12">
       <section>
         <h1 className="text-4xl font-bold">{tour.title}</h1>
-        <p className="text-gray-600 mt-4 text-lg">{tour.description || 'A premium Moroccan travel experience.'}</p>
+        <p className="text-gray-600 mt-4 text-lg">{(tour as any).subtitle || 'A premium Moroccan travel experience.'}</p>
         <div className="flex flex-wrap gap-6 text-sm text-gray-600 mt-4">
           <span>✔ Licensed Moroccan operator</span>
           <span>✔ Trusted by international travelers</span>
@@ -43,7 +44,7 @@ export default function TourPage({ tour, testimonials }: TourPageProps) {
         </div>
         <p className="text-orange-600 font-medium mt-4">Limited availability during peak season</p>
         <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Sahara%20tour" target="_blank" className="bg-green-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:bg-green-700 transition">
+          <a href={`https://wa.me/212619852591?text=${whatsappMsg}`} target="_blank" className="bg-green-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:bg-green-700 transition">
             Book via WhatsApp
           </a>
           <a href={tour.cta.payment_link || '#'} target="_blank" className="bg-black text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:bg-gray-800 transition">
