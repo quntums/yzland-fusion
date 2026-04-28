@@ -1,0 +1,59 @@
+{
+  "slug": "sahara-3-jours",
+  "title": "Sahara 3 Jours — Expérience",
+  "price_from": 450,
+  "duration": "3 Days",
+  "route": [
+    "Marrakech → Montagnes de l'Atlas → Vallée du Dadès",
+    "Dadès → Merzouga → Trek à dos de chameau",
+    "Lever du soleil → Retour à Marrakech"
+  ],
+  "highlights": [
+    "Trek à dos de chameau au coucher du soleil",
+    "Camp de luxe dans le désert",
+    "Traversée des montagnes de l'Atlas"
+  ],
+  "includes": [
+    "Transport privé",
+    "Camp de luxe dans le désert",
+    "Guide et repas"
+  ],
+  "images": [
+    "/images/sahara-sunset-traveler.jpg",
+    "/images/luxury-desert-camp.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=I'd like to secure my deposit for the Sahara 3-Day Experience"
+  },
+  "whatsapp_message": "Je souhaite réserver l'Expérience Sahara 3 Jours",
+  "subtitle": "Trois jours dans l'Erg Chebbi — camp de luxe, trek à dos de chameau et un lever de soleil inoubliable.",
+  "departures": [
+    {
+      "date": "15–17 Mai 2026",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Sahara%203%20Jours%20pour%2015-17%20Mai"
+    },
+    {
+      "date": "29–31 Mai 2026",
+      "spots": 2,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Sahara%203%20Jours%20pour%2029-31%20Mai"
+    },
+    {
+      "date": "12–14 Juin 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Sahara%203%20Jours%20pour%2012-14%20Juin"
+    },
+    {
+      "date": "26–28 Juin 2026",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Sahara%203%20Jours%20pour%2026-28%20Juin"
+    },
+    {
+      "date": "10–12 Juil 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Sahara%203%20Jours%20pour%2010-12%20Juil"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "villes-imperiales",
+  "title": "Circuit des Villes Impériales — 4 Jours",
+  "price_from": 600,
+  "duration": "4 Days",
+  "route": [
+    "Casablanca → Rabat → Meknès",
+    "Volubilis → Fès — visite de la médina",
+    "Fès → Marrakech via les montagnes",
+    "Marrakech — palais et jardins"
+  ],
+  "highlights": [
+    "Visite guidée de la médina de Fès",
+    "Ruines romaines de Volubilis",
+    "Palais et jardins de Marrakech"
+  ],
+  "includes": [
+    "Transport privé climatisé",
+    "Guide anglophone",
+    "Hébergement 3 nuits",
+    "Petits-déjeuners quotidiens"
+  ],
+  "images": [
+    "/images/marrakech-medina.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=I'd like to secure my deposit for the Imperial Cities Tour"
+  },
+  "whatsapp_message": "Je souhaite réserver le Circuit des Villes Impériales",
+  "subtitle": "Quatre jours à travers Fès, Meknès et Marrakech — médinas, palais et riads cachés.",
+  "departures": [
+    {
+      "date": "22–26 Mai 2026",
+      "spots": 3,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Circuit%20des%20Villes%20Imp%C3%A9riales%20pour%2022-26%20Mai"
+    },
+    {
+      "date": "5–9 Juin 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Circuit%20des%20Villes%20Imp%C3%A9riales%20pour%205-9%20Juin"
+    },
+    {
+      "date": "19–23 Juin 2026",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Circuit%20des%20Villes%20Imp%C3%A9riales%20pour%2019-23%20Juin"
+    },
+    {
+      "date": "3–7 Juil 2026",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Circuit%20des%20Villes%20Imp%C3%A9riales%20pour%203-7%20Juil"
+    }
+  ]
+}

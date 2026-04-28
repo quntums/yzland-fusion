@@ -1,36 +1,28 @@
+'use client';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 interface TourCardProps {
   slug: string;
   title: string;
+  image: string;
   price_from: number;
   duration: string;
   highlights: string[];
-  images: string[];
 }
 
-export default function TourCard({ slug, title, price_from, duration, highlights, images }: TourCardProps) {
+export default function TourCard({ slug, title, image, price_from, duration, highlights }: TourCardProps) {
+  const pathname = usePathname();
+  const isFrench = pathname.startsWith('/fr');
+  const link = isFrench ? `/fr/tours/${slug}` : `/tours/${slug}`;
   return (
-    <div className="border rounded-xl overflow-hidden hover:shadow-lg transition bg-white">
-      <img src={images[0] || '/placeholder.jpg'} alt={title} className="w-full h-48 object-cover" loading="lazy" />
-      <div className="p-4">
-        <h3 className="text-xl font-semibold">{title}</h3>
-        <p className="text-gray-600 text-sm mt-1">{duration}</p>
-        <p className="text-lg font-bold mt-2">From €{price_from} / person</p>
-        <ul className="mt-2 space-y-1">
-          {highlights.slice(0, 3).map((h, i) => (
-            <li key={i} className="text-gray-500 text-sm">✓ {h}</li>
-          ))}
-        </ul>
-        <div className="mt-4 flex gap-2">
-          <Link href={`/tours/${slug}`} className="flex-1 text-center bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition">
-            View Details
-          </Link>
-          <Link href="/contact" className="flex-1 text-center border border-green-600 text-green-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-50 transition">
-            Book Now
-          </Link>
-        </div>
-        <p className="text-xs text-orange-600 mt-2 text-center">Limited spots available</p>
+    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
+      <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url(${image})` }} />
+      <div className="p-5">
+        <h3 className="text-lg font-bold text-gray-800 mb-2">{title}</h3>
+        <div className="flex gap-4 text-sm text-gray-500 mb-3"><span>⏱ {duration}</span><span className="font-semibold text-amber-700">€{price_from}</span></div>
+        <ul className="text-sm text-gray-600 mb-4 space-y-1">{highlights.slice(0,3).map((h,i)=><li key={i} className="flex items-start gap-2"><span className="text-amber-500">✓</span>{h}</li>)}</ul>
+        <Link href={link} className="block w-full text-center bg-amber-600 hover:bg-amber-700 text-white font-medium py-2 rounded-lg transition-colors text-sm">{isFrench ? 'Voir le circuit' : 'View Tour'}</Link>
       </div>
     </div>
   );

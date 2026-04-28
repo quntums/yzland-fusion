@@ -1,0 +1,53 @@
+{
+  "slug": "escapade-atlas",
+  "title": "Escapade dans l'Atlas — 2 Jours",
+  "price_from": 350,
+  "duration": "3 Days",
+  "route": [
+    "Marrakech → Imlil → Aroumd",
+    "Trek vers le Camp de Base du Toubkal → Retour"
+  ],
+  "highlights": [
+    "Villages berbères traditionnels",
+    "Forêts de cèdres et cascades",
+    "Nuit chez l'habitant en montagne"
+  ],
+  "includes": [
+    "Transport privé depuis Marrakech",
+    "Guide de montagne certifié",
+    "Nuit chez l'habitant",
+    "Tous les repas inclus"
+  ],
+  "images": [
+    "/images/atlas-mountains.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=I'd like to secure my deposit for the Atlas Mountains Escape"
+  },
+  "whatsapp_message": "Je souhaite réserver l'Escapade dans l'Atlas",
+  "subtitle": "Deux jours dans le Haut Atlas — villages berbères, forêts de cèdres et une nuit chez l'habitant à 2100m.",
+  "departures": [
+    {
+      "date": "18–19 Mai 2026",
+      "spots": 3,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20l'Escapade%20dans%20l'Atlas%20pour%2018-19%20Mai"
+    },
+    {
+      "date": "1–2 Juin 2026",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20l'Escapade%20dans%20l'Atlas%20pour%201-2%20Juin"
+    },
+    {
+      "date": "15–16 Juin 2026",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20l'Escapade%20dans%20l'Atlas%20pour%2015-16%20Juin"
+    },
+    {
+      "date": "29–30 Juin 2026",
+      "spots": 2,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20l'Escapade%20dans%20l'Atlas%20pour%2029-30%20Juin"
+    }
+  ]
+}
