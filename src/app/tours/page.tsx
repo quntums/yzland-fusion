@@ -13,7 +13,7 @@ export default function ToursPage() {
             key={tour.slug}
             slug={tour.slug}
             title={tour.title}
-            images={tour.images}
+            image={tour.images?.[0] || '/placeholder.jpg'}
             price_from={tour.price_from}
             duration={tour.duration}
             highlights={tour.highlights}
