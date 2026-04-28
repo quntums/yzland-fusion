@@ -28,5 +28,32 @@
     "payment_link": "https://wa.me/212619852591?text=I'd like to secure my deposit for the Imperial Cities Tour"
   },
   "whatsapp_message": "I want to book the Imperial Cities Tour",
-  "subtitle": "Four days through Fes, Meknes & Marrakech — medinas, palaces, and hidden riads."
+  "subtitle": "Four days through Fes, Meknes & Marrakech — medinas, palaces, and hidden riads.",
+  "departures": [
+    {
+      "date": "22–26 May 2026",
+      "spots": 3,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Imperial%20Cities%20Tour%20for%2022-26%20May"
+    },
+    {
+      "date": "5–9 Jun 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Imperial%20Cities%20Tour%20for%205-9%20June"
+    },
+    {
+      "date": "19–23 Jun 2026",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Imperial%20Cities%20Tour%20for%2019-23%20June"
+    },
+    {
+      "date": "3–7 Jul 2026",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Imperial%20Cities%20Tour%20for%203-7%20July"
+    },
+    {
+      "date": "17–21 Jul 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Imperial%20Cities%20Tour%20for%2017-21%20July"
+    }
+  ]
 }

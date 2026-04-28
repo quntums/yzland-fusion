@@ -27,5 +27,32 @@
     "payment_link": "https://wa.me/212619852591?text=I'd like to secure my deposit for the Atlas Mountains Escape"
   },
   "whatsapp_message": "I want to book the Atlas Mountains Escape",
-  "subtitle": "Two days in the High Atlas — Berber villages, cedar forests, and a homestay at 2,100m."
+  "subtitle": "Two days in the High Atlas — Berber villages, cedar forests, and a homestay at 2,100m.",
+  "departures": [
+    {
+      "date": "18–19 May 2026",
+      "spots": 3,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Atlas%20Mountains%20Escape%20for%2018-19%20May"
+    },
+    {
+      "date": "1–2 Jun 2026",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Atlas%20Mountains%20Escape%20for%201-2%20June"
+    },
+    {
+      "date": "15–16 Jun 2026",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Atlas%20Mountains%20Escape%20for%2015-16%20June"
+    },
+    {
+      "date": "29–30 Jun 2026",
+      "spots": 2,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Atlas%20Mountains%20Escape%20for%2029-30%20June"
+    },
+    {
+      "date": "13–14 Jul 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Atlas%20Mountains%20Escape%20for%2013-14%20July"
+    }
+  ]
 }

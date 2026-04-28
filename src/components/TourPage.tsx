@@ -3,6 +3,7 @@ import { Testimonial } from '@/lib/testimonials';
 import ItineraryBlock from './ItineraryBlock';
 import IncludesBlock from './IncludesBlock';
 import TestimonialBlock from './TestimonialBlock';
+import DeparturesBlock from './DeparturesBlock';
 import CTASticky from './CTASticky';
 
 interface TourPageProps {
@@ -12,6 +13,7 @@ interface TourPageProps {
 
 export default function TourPage({ tour, testimonials }: TourPageProps) {
   const whatsappMsg = encodeURIComponent((tour as any).whatsapp_message || 'I want to book the ' + tour.title);
+  const departures = (tour as any).departures || [];
   return (
     <main className="max-w-5xl mx-auto px-4 py-12 space-y-12">
       <section>
@@ -33,6 +35,8 @@ export default function TourPage({ tour, testimonials }: TourPageProps) {
 
       <ItineraryBlock route={tour.route} />
       <IncludesBlock includes={tour.includes} />
+
+      {departures.length > 0 && <DeparturesBlock departures={departures} />}
 
       <section className="bg-gray-50 p-8 rounded-xl text-center">
         <h2 className="text-3xl font-bold">From €{tour.price_from} / person</h2>

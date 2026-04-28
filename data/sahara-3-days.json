@@ -28,5 +28,32 @@
     "payment_link": "https://wa.me/212619852591?text=I'd like to secure my deposit for the Sahara 3-Day Experience"
   },
   "whatsapp_message": "I want to book the Sahara 3-Day Experience",
-  "subtitle": "Three days into Erg Chebbi — luxury camp, camel trek, and a sunrise you'll never forget."
+  "subtitle": "Three days into Erg Chebbi — luxury camp, camel trek, and a sunrise you'll never forget.",
+  "departures": [
+    {
+      "date": "15–17 May 2026",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Sahara%203-Day%20Experience%20for%2015-17%20May"
+    },
+    {
+      "date": "29–31 May 2026",
+      "spots": 2,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Sahara%203-Day%20Experience%20for%2029-31%20May"
+    },
+    {
+      "date": "12–14 Jun 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Sahara%203-Day%20Experience%20for%2012-14%20June"
+    },
+    {
+      "date": "26–28 Jun 2026",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Sahara%203-Day%20Experience%20for%2026-28%20June"
+    },
+    {
+      "date": "10–12 Jul 2026",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Sahara%203-Day%20Experience%20for%2010-12%20July"
+    }
+  ]
 }
