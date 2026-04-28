@@ -4,10 +4,10 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-          <Image src="/yzland-logo.png" alt="YZLand Tours" width={40} height={40} className="h-10 w-auto" priority />
-          <span className="font-semibold text-gray-800 hidden sm:block">YZLand Tours</span>
+      <div className="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
+          <Image src="/yzland-logo.png" alt="YZLand Tours" width={120} height={48} className="h-12 w-auto" priority />
+          <span className="font-semibold text-gray-800 hidden sm:block text-lg">YZLand Tours</span>
         </Link>
         <nav className="flex items-center gap-4 md:gap-6 text-sm font-medium">
           <Link href="/" className="text-gray-600 hover:text-amber-700 transition">Home</Link>
