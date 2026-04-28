@@ -5,7 +5,7 @@ export default function Header() {
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-          <img src="/yzland-logo.png" alt="YZLand Tours" style={{ height: '80px', width: 'auto' }} />
+          <img src="/yzland-logo.png" alt="YZLand Tours" style={{ height: '160px', width: 'auto' }} />
         </Link>
         <nav className="flex items-center gap-4 md:gap-6 text-sm font-medium">
           <Link href="/" className="text-gray-600 hover:text-amber-700 transition">Home</Link>
