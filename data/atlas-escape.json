@@ -24,6 +24,8 @@
   "cta": {
     "whatsapp": true,
     "form": true,
-    "payment_link": "https://payment.example.com/CLIENT_WILL_PROVIDE"
-  }
+    "payment_link": "https://wa.me/212619852591?text=I'd like to secure my deposit for the Atlas Mountains Escape"
+  },
+  "whatsapp_message": "I want to book the Atlas Mountains Escape",
+  "subtitle": "Two days in the High Atlas — Berber villages, cedar forests, and a homestay at 2,100m."
 }
