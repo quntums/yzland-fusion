@@ -21,11 +21,12 @@ export default function TourPage({ tour, testimonials }: TourPageProps) {
           <span>✔ Trusted by international travelers</span>
           <span>✔ Secure booking with deposit</span>
         </div>
+        <p className="text-orange-600 font-medium mt-2">Limited spots available — Reserve now</p>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {tour.images.map((img, i) => (
-          <img key={i} src={img} alt={`${tour.title} - image ${i + 1}`} className="w-full h-64 object-cover rounded-xl" />
+          <img key={i} src={img} alt={`${tour.title} - image ${i + 1}`} className="w-full h-64 object-cover rounded-xl" loading="lazy" />
         ))}
       </section>
 
@@ -40,12 +41,19 @@ export default function TourPage({ tour, testimonials }: TourPageProps) {
           <p>✔ Instant confirmation</p>
           <p>✔ Trusted local operators</p>
         </div>
-        <p className="text-sm text-gray-500 mt-4">Limited availability during peak season.</p>
-        <div className="mt-8 flex gap-4 justify-center">
-          <a href={tour.cta.payment_link || '#'} target="_blank" className="bg-green-600 text-white px-6 py-3 rounded-xl shadow hover:opacity-90">Book Now</a>
-          <a href="/contact" className="border px-6 py-3 rounded-xl hover:bg-gray-50">Ask a Question</a>
+        <p className="text-orange-600 font-medium mt-4">Limited availability during peak season</p>
+        <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/212619852591?text=I%20want%20to%20book%20the%20Sahara%20tour" target="_blank" className="bg-green-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:bg-green-700 transition">
+            Book via WhatsApp
+          </a>
+          <a href={tour.cta.payment_link || '#'} target="_blank" className="bg-black text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:bg-gray-800 transition">
+            Pay Deposit (Secure Spot)
+          </a>
+          <a href="/contact" className="border-2 border-black px-8 py-4 rounded-xl text-lg font-semibold hover:bg-black hover:text-white transition">
+            Ask a Question
+          </a>
         </div>
-        <p className="text-sm text-gray-500 mt-2">Secure your booking with a small deposit. Pay the rest later.</p>
+        <p className="text-sm text-gray-500 mt-4">Secure your booking with a small deposit. Pay the rest later.</p>
       </section>
 
       <TestimonialBlock testimonials={testimonials} />
