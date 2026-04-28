@@ -1,12 +1,11 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Header() {
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 h-24 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-          <Image src="/yzland-logo.png" alt="YZLand Tours" width={200} height={80} className="h-16 w-auto" priority />
+          <img src="/yzland-logo.png" alt="YZLand Tours" className="h-20 w-auto" />
           <span className="font-semibold text-gray-800 hidden sm:block text-lg">YZLand Tours</span>
         </Link>
         <nav className="flex items-center gap-4 md:gap-6 text-sm font-medium">
