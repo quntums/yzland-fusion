@@ -1,0 +1,185 @@
+{
+  "slug": "maroc-grand-tour",
+  "slugFr": "maroc-grand-tour",
+  "title": "L\u00e0 o\u00f9 le Sahara rejoint la mer",
+  "titleFr": "L\u00e0 o\u00f9 le Sahara rejoint la mer",
+  "price_from": 2500,
+  "priceEur": 2500,
+  "duration": "9 Jours",
+  "durationFr": "9 Jours",
+  "durationDays": 9,
+  "collectionTag": "grand-tour",
+  "route": [
+    "Casablanca \u2192 Marrakech",
+    "Marrakech \u2192 Agafay",
+    "Marrakech \u2192 Rabat",
+    "Rabat \u2192 Chefchaouen",
+    "Chefchaouen \u2192 Akchour",
+    "Chefchaouen \u2192 Casablanca"
+  ],
+  "highlights": [
+    "Vol en montgolfi\u00e8re au-dessus du d\u00e9sert d'Agafay au lever du soleil",
+    "Promenade priv\u00e9e dans les Jardins Secrets de Marrakech en soir\u00e9e",
+    "Randonn\u00e9e de deux heures jusqu'aux Cascades d'Akchour dans le Rif",
+    "D\u00e9couverte de Chefchaouen, la l\u00e9gendaire Ville Bleue du Maroc",
+    "Visite guid\u00e9e de la Mosqu\u00e9e Hassan II construite au-dessus de l'Atlantique"
+  ],
+  "includes": [
+    "H\u00e9bergement dans les riads et h\u00f4tels s\u00e9lectionn\u00e9s avec petit-d\u00e9jeuner quotidien",
+    "Repas pr\u00e9vus au programme",
+    "V\u00e9hicule priv\u00e9 climatis\u00e9 et chauffeur tout au long du s\u00e9jour",
+    "Guide francophone pour toutes les visites et transferts",
+    "Droits d'entr\u00e9e sur tous les sites mentionn\u00e9s au programme"
+  ],
+  "excludes": [
+    "Boissons aux repas et repas non mentionn\u00e9s au programme",
+    "Activit\u00e9s optionnelles (montgolfi\u00e8re, hammam, tyrolienne, quad)",
+    "D\u00e9penses personnelles \u2014 blanchisserie, t\u00e9l\u00e9phone, pourboires",
+    "Vols internationaux vers/depuis le Maroc"
+  ],
+  "images": [
+    "/images/morocco-grand-tour/hero.jpg",
+    "/images/morocco-grand-tour/marrakech-jemaa-el-fna.jpg",
+    "/images/morocco-grand-tour/majorelle-garden.jpg",
+    "/images/morocco-grand-tour/agafay-balloon.jpg",
+    "/images/morocco-grand-tour/rabat-kasbah.jpg",
+    "/images/morocco-grand-tour/chefchaouen-blue-streets.jpg",
+    "/images/morocco-grand-tour/akchour-waterfall.jpg",
+    "/images/morocco-grand-tour/hassan-ii-mosque.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20r\u00e9server%20le%20Grand%20Tour%20du%20Maroc%209%20jours"
+  },
+  "whatsapp_message": "Bonjour, je suis int\u00e9ress\u00e9(e) par le circuit Maroc 9 jours 'L\u00e0 o\u00f9 le Sahara rejoint la mer'. Pouvez-vous me donner les tarifs et disponibilit\u00e9s ?",
+  "subtitle": "Un voyage priv\u00e9 \u00e0 travers les quatre grandes cit\u00e9s du Maroc \u2014 montgolfi\u00e8re \u00e0 l'aube, m\u00e9dinas bleues au cr\u00e9puscule, et le silence entre les deux.",
+  "heroImage": "/images/morocco-grand-tour/hero.jpg",
+  "heroAlt": "Arche ornementale d'un riad marocain baign\u00e9e de lumi\u00e8re dor\u00e9e au coucher du soleil",
+  "departures": [],
+  "departureDates": [
+    "2025-09-12",
+    "2025-10-10",
+    "2025-11-07",
+    "2026-03-06",
+    "2026-04-10",
+    "2026-05-08"
+  ],
+  "relatedTourSlugs": [
+    "chefchaouen-perle-bleue",
+    "marrakech-agafay",
+    "villes-imperiales"
+  ],
+  "bestMonths": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    11
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "12 sept",
+      "city": "Marrakech",
+      "title": "Arriv\u00e9e \u2014 La ville qui vous enveloppe",
+      "desc": "Arriv\u00e9e \u00e0 l'a\u00e9roport Mohammed V de Casablanca et transfert priv\u00e9 vers Marrakech. Deux heures de route \u00e0 travers oliveraies et arganiers. Installation au Riad Palais Blanc dans la m\u00e9dina. Le soir, promenade guid\u00e9e dans les Jardins Secrets et Dar el Bacha, puis immersion dans Jemaa el-Fna qui s'\u00e9veille \u00e0 la nuit tomb\u00e9e."
+    },
+    {
+      "day": 2,
+      "date": "13 sept",
+      "city": "Marrakech",
+      "title": "Palais, pigments et d\u00eener dans le d\u00e9sert",
+      "desc": "Matin\u00e9e au Palais de la Bahia et visite d'une apothicairerie traditionnelle. Puis le Jardin Majorelle \u2014 le sanctuaire bleu \u00e9lectrique cr\u00e9\u00e9 par le peintre Jacques Majorelle et rachet\u00e9 par Yves Saint Laurent. D\u00e9jeuner optionnel dans le jardin et visite du Mus\u00e9e Amazigh. En fin d'apr\u00e8s-midi, cap sur le d\u00e9sert pierreux d'Agafay pour un d\u00eener aux chandelles sous la toile."
+    },
+    {
+      "day": 3,
+      "date": "14 sept",
+      "city": "Marrakech",
+      "title": "Le lever du soleil \u00e0 300 m\u00e8tres \u2014 le jour de la montgolfi\u00e8re",
+      "desc": "D\u00e9collage aux premi\u00e8res lueurs du jour au-dessus du d\u00e9sert d'Agafay et des palmeraies, avec l'Atlas qui rougit \u00e0 l'horizon. Petit-d\u00e9jeuner champagne \u00e0 l'atterrissage. Le reste de la journ\u00e9e est libre : hammam, cours de cuisine ou fl\u00e2nerie dans les souks \u00e0 votre rythme."
+    },
+    {
+      "day": 4,
+      "date": "15 sept",
+      "city": "Rabat",
+      "title": "La puissance discr\u00e8te de la capitale",
+      "desc": "Route vers Rabat, la capitale royale que les voyageurs n\u00e9gligent \u00e0 tort. Visite de la n\u00e9cropole de Chellah \u2014 cit\u00e9 romaine engloutie par un sanctuaire m\u00e9di\u00e9val o\u00f9 les cigognes nichent sur des minarets bris\u00e9s \u2014 puis la Tour Hassan et le Mausol\u00e9e de Mohammed V. Installation \u00e0 La Tour Hassan Palace. Soir\u00e9e libre."
+    },
+    {
+      "day": 5,
+      "date": "16 sept",
+      "city": "Rabat",
+      "title": "La Kasbah face \u00e0 l'Atlantique",
+      "desc": "Matin\u00e9e dans la m\u00e9dina de Rabat et le march\u00e9 de Bab el-Had, avant d'entrer dans la Kasbah des Oudayas \u2014 village fortifi\u00e9 perch\u00e9 sur l'estuaire du Bou Regreg, avec ses jardins andalous qui dominent l'Atlantique. D\u00e9jeuner optionnel sur r\u00e9servation. Apr\u00e8s-midi libre."
+    },
+    {
+      "day": 6,
+      "date": "17 sept",
+      "city": "Chefchaouen",
+      "title": "La Ville Bleue, d\u00e9voil\u00e9e",
+      "desc": "Route vers le Rif pour rejoindre Chefchaouen, m\u00e9dina peinte dans toutes les nuances de bleu. Promenade guid\u00e9e \u00e0 Ras el-Maa, dans la kasbah historique, \u00e0 travers les ruelles sinueuses et jusqu'\u00e0 la Place Uta el-Hammam au moment o\u00f9 l'appel \u00e0 la pri\u00e8re r\u00e9sonne sur la montagne. D\u00eener et nuit \u00e0 Dar Jasmine."
+    },
+    {
+      "day": 7,
+      "date": "18 sept",
+      "city": "Chefchaouen",
+      "title": "La cascade au bout du sentier",
+      "desc": "Randonn\u00e9e guid\u00e9e de deux heures \u00e0 travers for\u00eats de c\u00e8dres et gorges calcaires jusqu'aux Cascades d'Akchour. D\u00e9jeuner au bord de l'eau. Retour \u00e0 Chefchaouen l'apr\u00e8s-midi pour du quad ou une tyrolienne au-dessus de la vall\u00e9e en option. Nuit \u00e0 Chefchaouen."
+    },
+    {
+      "day": 8,
+      "date": "19 sept",
+      "city": "Casablanca",
+      "title": "La mosqu\u00e9e au bord de l'oc\u00e9an",
+      "desc": "Route le long de la c\u00f4te atlantique jusqu'\u00e0 Casablanca. Installation au Radisson Blu. Visite guid\u00e9e de la Mosqu\u00e9e Hassan II \u2014 troisi\u00e8me plus grande mosqu\u00e9e du monde, construite en partie sur la mer, avec son minaret de 200 m\u00e8tres. Temps libre sur la Corniche et dans le quartier Art D\u00e9co."
+    },
+    {
+      "day": 9,
+      "date": "20 sept",
+      "city": "Casablanca",
+      "title": "Au revoir \u2014 jusqu'\u00e0 la prochaine m\u00e9dina",
+      "desc": "Petit-d\u00e9jeuner \u00e0 l'h\u00f4tel. Transfert priv\u00e9 vers l'a\u00e9roport international Mohammed V pour votre vol retour. Fin des services."
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Marrakech",
+      "name": "Riad Palais Blanc",
+      "nights": 3
+    },
+    {
+      "city": "Rabat",
+      "name": "La Tour Hassan Palace",
+      "nights": 2
+    },
+    {
+      "city": "Chefchaouen",
+      "name": "Dar Jasmine",
+      "nights": 2
+    },
+    {
+      "city": "Casablanca",
+      "name": "Radisson Blu",
+      "nights": 1
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Le vol en montgolfi\u00e8re \u00e0 lui seul valait tout le voyage. Mais ce dont je me souviendrai le plus, c'est Chefchaouen \u00e0 six heures du matin, avant l'arriv\u00e9e des touristes.",
+      "author": "Layla M.",
+      "origin": "Duba\u00ef"
+    },
+    {
+      "quote": "Notre guide savait \u00e0 quelle porte frapper pour trouver la meilleure pastilla de la m\u00e9dina. Ce genre de d\u00e9tail, aucun guide de voyage ne peut vous l'offrir.",
+      "author": "Thomas R.",
+      "origin": "Paris"
+    },
+    {
+      "quote": "Neuf jours qui ont eu le go\u00fbt d'un mois, dans le meilleur sens du terme. Rabat a \u00e9t\u00e9 la vraie surprise \u2014 personne ne parle de Rabat. Ils devraient.",
+      "author": "Amira K.",
+      "origin": "Londres"
+    }
+  ]
+}

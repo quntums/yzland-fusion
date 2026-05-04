@@ -1,0 +1,37 @@
+{
+  "slug": "akchour-cascades",
+  "title": "Akchour \u2013 Cascades et Nature",
+  "price_from": 180,
+  "duration": "2 Jours",
+  "route": [
+    "Chefchaouen \u2192 Pont de Dieu",
+    "Pont de Dieu \u2192 Grande Cascade",
+    "Grande Cascade \u2192 Retour"
+  ],
+  "highlights": [
+    "Arche rocheuse du Pont de Dieu",
+    "Baignade \u00e0 la Grande Cascade",
+    "Randonn\u00e9e en for\u00eat de c\u00e8dres",
+    "Pique-nique en montagne"
+  ],
+  "includes": [
+    "Transport depuis Chefchaouen",
+    "1 nuit en g\u00eete de montagne",
+    "Tous les repas",
+    "Guide de montagne certifi\u00e9"
+  ],
+  "images": [
+    "/images/akchour-1.jpg",
+    "/images/akchour-2.jpg",
+    "/images/akchour-3.jpg",
+    "/images/akchour-4.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20r\u00e9server%20Akchour%20Cascades"
+  },
+  "whatsapp_message": "Je souhaite r\u00e9server Akchour \u2013 Cascades et Nature",
+  "subtitle": "Deux jours au c\u0153ur des cascades d'Akchour \u2014 Pont de Dieu, Grande Cascade et for\u00eats de c\u00e8dres.",
+  "departures": []
+}

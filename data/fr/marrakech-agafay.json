@@ -1,0 +1,39 @@
+{
+  "slug": "marrakech-agafay",
+  "title": "Marrakech & Agafay \u2013 De la Ville au D\u00e9sert",
+  "price_from": 390,
+  "duration": "3 Jours",
+  "route": [
+    "Marrakech \u2192 M\u00e9dina",
+    "Marrakech \u2192 Jardin Majorelle \u2192 Agafay",
+    "Agafay \u2192 Montgolfi\u00e8re \u2192 Marrakech"
+  ],
+  "highlights": [
+    "Montgolfi\u00e8re au lever du soleil",
+    "D\u00eener dans le d\u00e9sert d'Agafay",
+    "Palais Bahia",
+    "Jardin Majorelle",
+    "Jardins Secrets",
+    "Visite d'une pharmacie traditionnelle"
+  ],
+  "includes": [
+    "Transport tout au long du s\u00e9jour",
+    "2 nuits au Riad Palais Blanc",
+    "Petit-d\u00e9jeuner quotidien",
+    "Exp\u00e9rience en montgolfi\u00e8re",
+    "D\u00eener dans le d\u00e9sert d'Agafay",
+    "Guide agr\u00e9\u00e9"
+  ],
+  "images": [
+    "/images/luxury-desert-camp.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20r\u00e9server%20Marrakech%20Agafay"
+  },
+  "whatsapp_message": "Je souhaite r\u00e9server Marrakech & Agafay",
+  "subtitle": "De la m\u00e9dina de Marrakech au d\u00e9sert d'Agafay \u2014 montgolfi\u00e8re, palais et d\u00eener sous les \u00e9toiles.",
+  "departures": [],
+  "heroPlaceholder": true
+}

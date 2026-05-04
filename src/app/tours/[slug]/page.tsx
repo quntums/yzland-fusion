@@ -7,6 +7,10 @@ function getTestimonialsForTour(slug: string) {
   if (slug === 'sahara-3-days') return saharaTestimonials;
   if (slug === 'imperial-cities') return imperialTestimonials;
   if (slug === 'atlas-escape') return atlasTestimonials;
+  if (slug === 'morocco-grand-tour') {
+    const tour = getTourBySlug('morocco-grand-tour');
+    if (tour && tour.testimonials) return tour.testimonials;
+  }
   return defaultTestimonials;
 }
 

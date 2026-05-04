@@ -1,0 +1,39 @@
+{
+  "slug": "chefchaouen-blue-pearl",
+  "title": "Chefchaouen \u2013 Blue Pearl",
+  "price_from": 260,
+  "duration": "3 Days",
+  "route": [
+    "Marrakech/Fes \u2192 Chefchaouen",
+    "Chefchaouen \u2192 Ras El Ma \u2192 Spanish Mosque",
+    "Chefchaouen \u2192 Akchour \u2192 Return"
+  ],
+  "highlights": [
+    "Blue medina exploration",
+    "Ras El Ma waterfall",
+    "Spanish Mosque sunset",
+    "Artisan markets",
+    "Akchour waterfalls day trip"
+  ],
+  "includes": [
+    "Transport from Marrakech or Fes",
+    "2 nights at Dar Jasmine",
+    "Daily breakfast",
+    "Guided medina tour",
+    "Akchour excursion"
+  ],
+  "images": [
+    "/images/chefchaouen-1.jpg",
+    "/images/chefchaouen-2.jpg",
+    "/images/chefchaouen-3.jpg",
+    "/images/chefchaouen-4.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=I'd%20like%20to%20book%20Chefchaouen%20Blue%20Pearl"
+  },
+  "whatsapp_message": "I'd like to book Chefchaouen \u2013 Blue Pearl",
+  "subtitle": "Three days in Morocco's Blue City \u2014 medina alleys, waterfalls, and unforgettable sunsets.",
+  "departures": []
+}

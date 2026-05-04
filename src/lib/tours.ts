@@ -1,6 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 
+export interface ItineraryDay {
+  day: number;
+  date?: string;
+  city?: string;
+  title?: string;
+  desc?: string;
+}
+
 export interface TourData {
   description?: string;
   slug: string;
@@ -11,6 +19,12 @@ export interface TourData {
   highlights: string[];
   includes: string[];
   images: string[];
+  itinerary?: ItineraryDay[];
+  testimonials?: {
+    quote: string;
+    author: string;
+    origin: string;
+  }[];
   cta: {
     whatsapp: boolean;
     form: boolean;

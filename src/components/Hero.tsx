@@ -12,7 +12,7 @@ export default function Hero({ title, subtitle, image, ctaText, ctaLink }: HeroP
   return (
     <section className="relative h-[70vh] flex items-center justify-center text-center text-white">
       <img src={image} alt={title} className="absolute inset-0 w-full h-full object-cover" loading="eager" />
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-indigo-900/60"></div>
       <div className="relative z-10 px-4 max-w-3xl">
         <h1 className="text-5xl font-bold leading-tight">{title}</h1>
         <p className="mt-6 text-xl text-white/90">{subtitle}</p>
@@ -25,7 +25,7 @@ export default function Hero({ title, subtitle, image, ctaText, ctaLink }: HeroP
           <Link href={ctaLink} className="bg-green-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:bg-green-700 transition">
             {ctaText}
           </Link>
-          <Link href="/contact" className="border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-black transition">
+          <Link href="/contact.html" className="border-2 border-white text-white bg-white/10 backdrop-blur-sm px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-black transition">
             Ask a Question
           </Link>
         </div>

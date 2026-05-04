@@ -1,0 +1,39 @@
+{
+  "slug": "marrakech-agafay",
+  "title": "Marrakech & Agafay \u2013 City to Desert",
+  "price_from": 390,
+  "duration": "3 Days",
+  "route": [
+    "Marrakech \u2192 Medina",
+    "Marrakech \u2192 Majorelle Garden \u2192 Agafay",
+    "Agafay \u2192 Balloon \u2192 Marrakech"
+  ],
+  "highlights": [
+    "Hot air balloon at sunrise",
+    "Agafay desert dinner",
+    "Bahia Palace",
+    "Majorelle Garden",
+    "Secret Gardens",
+    "Traditional pharmacy visit"
+  ],
+  "includes": [
+    "Transport throughout",
+    "2 nights at Riad Palais Blanc",
+    "Daily breakfast",
+    "Balloon experience",
+    "Agafay desert dinner",
+    "Licensed guide"
+  ],
+  "images": [
+    "/images/luxury-desert-camp.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=I'd%20like%20to%20book%20Marrakech%20%26%20Agafay"
+  },
+  "whatsapp_message": "I'd like to book Marrakech & Agafay",
+  "subtitle": "From Marrakech's medina to the Agafay desert \u2014 hot air balloon, palaces, and dinner under the stars.",
+  "departures": [],
+  "heroPlaceholder": true
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "chefchaouen-perle-bleue",
+  "title": "Chefchaouen \u2013 La Perle Bleue",
+  "price_from": 260,
+  "duration": "3 Jours",
+  "route": [
+    "Marrakech/F\u00e8s \u2192 Chefchaouen",
+    "Chefchaouen \u2192 Ras El Ma \u2192 Mosqu\u00e9e Espagnole",
+    "Chefchaouen \u2192 Akchour \u2192 Retour"
+  ],
+  "highlights": [
+    "Exploration de la m\u00e9dina bleue",
+    "Cascade de Ras El Ma",
+    "Coucher de soleil \u00e0 la Mosqu\u00e9e Espagnole",
+    "March\u00e9s artisanaux",
+    "Excursion aux cascades d'Akchour"
+  ],
+  "includes": [
+    "Transport depuis Marrakech ou F\u00e8s",
+    "2 nuits \u00e0 Dar Jasmine",
+    "Petit-d\u00e9jeuner quotidien",
+    "Visite guid\u00e9e de la m\u00e9dina",
+    "Excursion \u00e0 Akchour"
+  ],
+  "images": [
+    "/images/chefchaouen-1.jpg",
+    "/images/chefchaouen-2.jpg",
+    "/images/chefchaouen-3.jpg",
+    "/images/chefchaouen-4.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20r\u00e9server%20Chefchaouen%20Perle%20Bleue"
+  },
+  "whatsapp_message": "Je souhaite r\u00e9server Chefchaouen \u2013 La Perle Bleue",
+  "subtitle": "Trois jours dans la ville bleue \u2014 m\u00e9dina, cascades et couchers de soleil inoubliables.",
+  "departures": []
+}

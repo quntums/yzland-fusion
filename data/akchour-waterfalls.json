@@ -1,0 +1,37 @@
+{
+  "slug": "akchour-waterfalls",
+  "title": "Akchour \u2013 Waterfalls & Nature",
+  "price_from": 180,
+  "duration": "2 Days",
+  "route": [
+    "Chefchaouen \u2192 Pont de Dieu",
+    "Pont de Dieu \u2192 Grand Cascade",
+    "Grand Cascade \u2192 Return"
+  ],
+  "highlights": [
+    "Pont de Dieu rock arch",
+    "Grand Cascade swim",
+    "Cedar forest trek",
+    "Mountain picnic"
+  ],
+  "includes": [
+    "Transport from Chefchaouen",
+    "1 night at mountain g\u00eete",
+    "All meals",
+    "Certified mountain guide"
+  ],
+  "images": [
+    "/images/akchour-1.jpg",
+    "/images/akchour-2.jpg",
+    "/images/akchour-3.jpg",
+    "/images/akchour-4.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=I'd%20like%20to%20book%20Akchour%20Waterfalls"
+  },
+  "whatsapp_message": "I'd like to book Akchour \u2013 Waterfalls & Nature",
+  "subtitle": "Two days in the heart of Akchour's waterfalls \u2014 Pont de Dieu, Grand Cascade, and cedar forests.",
+  "departures": []
+}

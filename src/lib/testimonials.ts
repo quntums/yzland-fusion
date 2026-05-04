@@ -23,3 +23,8 @@ export const defaultTestimonials: Testimonial[] = [
   imperialTestimonials[1],
   atlasTestimonials[0]
 ];
+
+export const defaultFrenchTestimonials: Testimonial[] = [
+  { quote: "Le circuit du Sahara était le point culminant de notre voyage au Maroc. Tout était parfaitement organisé.", author: "Sarah & Tom", origin: "Royaume-Uni" },
+  { quote: "Expérience incroyable ! Notre guide était très compétent et le camp dans le désert était magique.", author: "Marie Dubois", origin: "France" }
+];

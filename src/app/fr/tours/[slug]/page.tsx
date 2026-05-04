@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { notFound } from 'next/navigation';
 import TourPage from '@/components/TourPage';
-import { saharaTestimonials, imperialTestimonials, atlasTestimonials } from '@/lib/testimonials';
+import { saharaTestimonials, imperialTestimonials, atlasTestimonials, defaultFrenchTestimonials } from '@/lib/testimonials';
 
 function getFrenchTour(slug: string) {
   const dir = path.join(process.cwd(), 'data/fr');
@@ -27,6 +27,6 @@ export default async function FrTourPage({ params }: { params: Promise<{ slug: s
   const { slug } = await params;
   const tour = getFrenchTour(slug);
   if (!tour) notFound();
-  const testimonials = slug === 'sahara-3-jours' ? saharaTestimonials : slug === 'villages-imperiales' ? imperialTestimonials : atlasTestimonials;
+  const testimonials = slug === 'sahara-3-jours' ? saharaTestimonials : slug === 'villes-imperiales' ? imperialTestimonials : slug === 'escapade-atlas' ? atlasTestimonials : defaultFrenchTestimonials;
   return <TourPage tour={tour} testimonials={testimonials} />;
 }

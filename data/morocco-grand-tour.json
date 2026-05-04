@@ -1,0 +1,185 @@
+{
+  "slug": "morocco-grand-tour",
+  "slugFr": "maroc-grand-tour",
+  "title": "Where Sahara Meets the Sea",
+  "titleFr": "L\u00e0 o\u00f9 le Sahara rejoint la mer",
+  "price_from": 2500,
+  "priceEur": 2500,
+  "duration": "9 Days",
+  "durationFr": "9 Jours",
+  "durationDays": 9,
+  "collectionTag": "grand-tour",
+  "route": [
+    "Casablanca \u2192 Marrakech",
+    "Marrakech \u2192 Agafay",
+    "Marrakech \u2192 Rabat",
+    "Rabat \u2192 Chefchaouen",
+    "Chefchaouen \u2192 Akchour",
+    "Chefchaouen \u2192 Casablanca"
+  ],
+  "highlights": [
+    "Hot-air balloon ride over the Agafay desert at sunrise",
+    "Private evening walk through Marrakech's Secret Gardens",
+    "Two-hour hike to the Cascades d'Akchour in the Rif Mountains",
+    "Exploration of Chefchaouen \u2014 Morocco's legendary Blue City",
+    "Guided visit to Hassan II Mosque built over the Atlantic Ocean"
+  ],
+  "includes": [
+    "Accommodation in selected riads and hotels with daily breakfast",
+    "Meals as listed in the programme",
+    "Private air-conditioned vehicle and driver throughout",
+    "English-speaking guide for all tours and transfers",
+    "Entrance fees to all sites listed in the programme"
+  ],
+  "excludes": [
+    "Beverages with meals and meals not listed in the programme",
+    "Optional activities (hot-air balloon, hammam, zipline, quad biking)",
+    "Personal expenses \u2014 laundry, phone calls, gratuities",
+    "International flights to/from Morocco"
+  ],
+  "images": [
+    "/images/morocco-grand-tour/hero.jpg",
+    "/images/morocco-grand-tour/marrakech-jemaa-el-fna.jpg",
+    "/images/morocco-grand-tour/majorelle-garden.jpg",
+    "/images/morocco-grand-tour/agafay-balloon.jpg",
+    "/images/morocco-grand-tour/rabat-kasbah.jpg",
+    "/images/morocco-grand-tour/chefchaouen-blue-streets.jpg",
+    "/images/morocco-grand-tour/akchour-waterfall.jpg",
+    "/images/morocco-grand-tour/hassan-ii-mosque.jpg"
+  ],
+  "cta": {
+    "whatsapp": true,
+    "form": true,
+    "payment_link": "https://wa.me/212619852591?text=I'd%20like%20to%20book%20the%20Morocco%20Grand%20Tour%209%20Days"
+  },
+  "whatsapp_message": "Hi, I'm interested in the 9-day Morocco Grand Tour 'Where Sahara Meets the Sea'. Can you send me pricing and availability?",
+  "subtitle": "A curated private passage through Morocco's four great cities \u2014 balloon rides at dawn, blue medinas at dusk, and the silence between.",
+  "heroImage": "/images/morocco-grand-tour/hero.jpg",
+  "heroAlt": "Ornate Moroccan riad archway glowing with warm lantern light at dusk",
+  "departures": [],
+  "departureDates": [
+    "2025-09-12",
+    "2025-10-10",
+    "2025-11-07",
+    "2026-03-06",
+    "2026-04-10",
+    "2026-05-08"
+  ],
+  "relatedTourSlugs": [
+    "chefchaouen-blue-pearl",
+    "marrakech-agafay",
+    "imperial-cities"
+  ],
+  "bestMonths": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    11
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Sep 12",
+      "city": "Marrakech",
+      "title": "Arrival \u2014 The City Breathes You In",
+      "desc": "Arrive at Casablanca Mohammed V airport and transfer by private vehicle to Marrakech \u2014 a two-hour drive through olive groves and argan orchards. Check into Riad Palais Blanc in the medina. That evening, a private guided walk through the Secret Gardens and Dar el Bacha, then a slow wander into Jemaa el-Fna as the square comes alive."
+    },
+    {
+      "day": 2,
+      "date": "Sep 13",
+      "city": "Marrakech",
+      "title": "Palaces, Pigments & a Desert Dinner",
+      "desc": "Morning at Bahia Palace and a visit to a traditional apothecary. Then Majorelle Garden \u2014 the electric-blue sanctuary created by French painter Jacques Majorelle and rescued by Yves Saint Laurent. Optional lunch inside the garden and a visit to the Amazigh Museum. Late afternoon, the city gives way to the Agafay stony desert for a candlelit dinner under canvas."
+    },
+    {
+      "day": 3,
+      "date": "Sep 14",
+      "city": "Marrakech",
+      "title": "Sunrise from 1,000 Feet \u2014 The Balloon Day",
+      "desc": "An early-morning hot-air balloon flight over the Agafay desert and palm groves, with the Atlas Mountains glowing on the horizon. Champagne breakfast on landing. The remainder of the day is free for a hammam, a cooking class, or exploring the souks at your own pace."
+    },
+    {
+      "day": 4,
+      "date": "Sep 15",
+      "city": "Rabat",
+      "title": "The Capital's Quiet Power",
+      "desc": "Drive north to Rabat, Morocco's understated royal capital. Visit the Chellah necropolis \u2014 a ruined Roman city absorbed by a medieval Islamic sanctuary where storks nest on broken minarets \u2014 then Hassan Tower and the Mausoleum of Mohammed V. Check into La Tour Hassan Palace. Evening at leisure."
+    },
+    {
+      "day": 5,
+      "date": "Sep 16",
+      "city": "Rabat",
+      "title": "Kasbah by the Sea",
+      "desc": "A morning exploring Rabat's medina and Bab el-Had market before entering the Kasbah of the Udayas \u2014 a fortified village perched above the Bou Regreg estuary with Andalusian gardens overlooking the Atlantic. Optional pre-booked lunch. Free afternoon."
+    },
+    {
+      "day": 6,
+      "date": "Sep 17",
+      "city": "Chefchaouen",
+      "title": "The Blue City, Unveiled",
+      "desc": "Drive into the Rif Mountains to Chefchaouen, a medina painted in every shade of blue. Private guided walk through Ras el-Maa spring, the historic kasbah, the winding derb alleyways, and Place Uta el-Hammam as the evening call to prayer echoes off the mountain. Dinner and overnight at Dar Jasmine."
+    },
+    {
+      "day": 7,
+      "date": "Sep 18",
+      "city": "Chefchaouen",
+      "title": "The Waterfall at the End of the Trail",
+      "desc": "A two-hour guided hike through cedar forest and limestone gorges to the Cascades d'Akchour. Outdoor lunch by the water. Return to Chefchaouen in the afternoon for optional quad biking or a zipline ride over the valley. Overnight in Chefchaouen."
+    },
+    {
+      "day": 8,
+      "date": "Sep 19",
+      "city": "Casablanca",
+      "title": "The Mosque at the Edge of the Ocean",
+      "desc": "Drive along the Atlantic coast to Casablanca. Check into Radisson Blu. Guided visit to Hassan II Mosque \u2014 the third-largest mosque in the world, built partially over the sea, with a retractable roof and a 200-metre minaret. Free time to explore the Corniche and Art Deco quarter."
+    },
+    {
+      "day": 9,
+      "date": "Sep 20",
+      "city": "Casablanca",
+      "title": "Farewell \u2014 Until the Next Medina",
+      "desc": "Breakfast at the hotel. Private transfer to Mohammed V International Airport for your onward flight. End of services."
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Marrakech",
+      "name": "Riad Palais Blanc",
+      "nights": 3
+    },
+    {
+      "city": "Rabat",
+      "name": "La Tour Hassan Palace",
+      "nights": 2
+    },
+    {
+      "city": "Chefchaouen",
+      "name": "Dar Jasmine",
+      "nights": 2
+    },
+    {
+      "city": "Casablanca",
+      "name": "Radisson Blu",
+      "nights": 1
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "The balloon ride alone was worth the entire trip. But what I'll remember most is Chefchaouen at six in the morning, before any other tourists arrived.",
+      "author": "Layla M.",
+      "origin": "Dubai"
+    },
+    {
+      "quote": "Our guide knew which door to knock on to find the best pastilla in the medina. That's the kind of detail money can't buy from a guidebook.",
+      "author": "Thomas R.",
+      "origin": "Paris"
+    },
+    {
+      "quote": "Nine days felt like a month in the best possible way. Rabat was the surprise \u2014 nobody talks about Rabat. They should.",
+      "author": "Amira K.",
+      "origin": "London"
+    }
+  ]
+}
