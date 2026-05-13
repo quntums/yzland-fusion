@@ -21,12 +21,12 @@
     "Petits-déjeuners quotidiens"
   ],
   "images": [
-    "/images/imperial-1.jpg",
-    "/images/imperial-2.jpg",
-    "/images/imperial-3.jpg",
-    "/images/imperial-4.jpg",
-    "/images/imperial-5.jpg",
-    "/images/marrakech-medina.jpg"
+    "/images/imperial-1.webp",
+    "/images/imperial-2.webp",
+    "/images/imperial-3.webp",
+    "/images/imperial-4.webp",
+    "/images/imperial-5.webp",
+    "/images/marrakech-medina.webp"
   ],
   "cta": {
     "whatsapp": true,
@@ -56,5 +56,6 @@
       "spots": 5,
       "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20le%20Circuit%20des%20Villes%20Imp%C3%A9riales%20pour%203-7%20Juil"
     }
-  ]
+  ],
+  "description": "Quatre jours à travers Fès, Meknès et Marrakech — médinas, palais et riads cachés."
 }

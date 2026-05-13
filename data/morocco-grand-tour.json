@@ -38,14 +38,14 @@
     "International flights to/from Morocco"
   ],
   "images": [
-    "/images/morocco-grand-tour/hero.jpg",
-    "/images/morocco-grand-tour/marrakech-jemaa-el-fna.jpg",
-    "/images/morocco-grand-tour/majorelle-garden.jpg",
-    "/images/morocco-grand-tour/agafay-balloon.jpg",
-    "/images/morocco-grand-tour/rabat-kasbah.jpg",
-    "/images/morocco-grand-tour/chefchaouen-blue-streets.jpg",
-    "/images/morocco-grand-tour/akchour-waterfall.jpg",
-    "/images/morocco-grand-tour/hassan-ii-mosque.jpg"
+    "/images/morocco-grand-tour/hero.webp",
+    "/images/morocco-grand-tour/marrakech-jemaa-el-fna.webp",
+    "/images/morocco-grand-tour/majorelle-garden.webp",
+    "/images/morocco-grand-tour/agafay-balloon.webp",
+    "/images/morocco-grand-tour/rabat-kasbah.webp",
+    "/images/morocco-grand-tour/chefchaouen-blue-streets.webp",
+    "/images/morocco-grand-tour/akchour-waterfall.webp",
+    "/images/morocco-grand-tour/hassan-ii-mosque.webp"
   ],
   "cta": {
     "whatsapp": true,
@@ -54,7 +54,7 @@
   },
   "whatsapp_message": "Hi, I'm interested in the 9-day Morocco Grand Tour 'Where Sahara Meets the Sea'. Can you send me pricing and availability?",
   "subtitle": "A curated private passage through Morocco's four great cities \u2014 balloon rides at dawn, blue medinas at dusk, and the silence between.",
-  "heroImage": "/images/morocco-grand-tour/hero.jpg",
+  "heroImage": "/images/morocco-grand-tour/hero.webp",
   "heroAlt": "Ornate Moroccan riad archway glowing with warm lantern light at dusk",
   "departures": [],
   "departureDates": [

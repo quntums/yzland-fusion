@@ -1,13 +1,17 @@
 'use client';
 import { useState, useEffect } from 'react';
 
+interface HeroSlideshowProps {
+  isFr?: boolean;
+}
+
 const images = [
   '/images/sahara-1.jpg',
   '/images/imperial-2.jpg',
   '/images/atlas-1.jpg',
 ];
 
-export default function HeroSlideshow() {
+export default function HeroSlideshow({ isFr = false }: HeroSlideshowProps) {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -16,6 +20,12 @@ export default function HeroSlideshow() {
     }, 8000);
     return () => clearInterval(timer);
   }, []);
+
+  const headline = isFr ? 'Explorez le Maroc avec Y&ZLand' : 'Explore Morocco with Y&ZLand';
+  const subtitle = isFr
+    ? 'Voyages de luxe à travers déserts, montagnes et villes.'
+    : 'Luxury journeys across deserts, mountains, and cities.';
+  const cta = isFr ? 'Découvrir Nos Circuits' : 'Discover Our Tours';
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
@@ -31,9 +41,14 @@ export default function HeroSlideshow() {
         />
       ))}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl tracking-tight">Explore Morocco with Y&ZLand</h1>
-        <p className="text-xl md:text-2xl mb-10 drop-shadow-lg max-w-2xl">Luxury journeys across deserts, mountains, and cities.</p>
-        <a href="/tours.html" className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-10 py-5 rounded-xl text-xl transition-all shadow-2xl hover:scale-105">Discover Our Tours</a>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl tracking-tight">{headline}</h1>
+        <p className="text-xl md:text-2xl mb-10 drop-shadow-lg max-w-2xl">{subtitle}</p>
+        <a
+          href={isFr ? '/fr/tours.html' : '/tours.html'}
+          className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-10 py-5 rounded-xl text-xl transition-all shadow-2xl hover:scale-105"
+        >
+          {cta}
+        </a>
       </div>
       <div className="absolute bottom-8 z-10 flex gap-3">
         {images.map((_, i) => (

@@ -1,39 +1,66 @@
 {
   "slug": "chefchaouen-perle-bleue",
-  "title": "Chefchaouen \u2013 La Perle Bleue",
+  "title": "Chefchaouen – La Perle Bleue",
   "price_from": 260,
   "duration": "3 Jours",
   "route": [
-    "Marrakech/F\u00e8s \u2192 Chefchaouen",
-    "Chefchaouen \u2192 Ras El Ma \u2192 Mosqu\u00e9e Espagnole",
-    "Chefchaouen \u2192 Akchour \u2192 Retour"
+    "Marrakech/Fès → Chefchaouen",
+    "Chefchaouen → Ras El Ma → Mosquée Espagnole",
+    "Chefchaouen → Akchour → Retour"
   ],
   "highlights": [
-    "Exploration de la m\u00e9dina bleue",
+    "Exploration de la médina bleue",
     "Cascade de Ras El Ma",
-    "Coucher de soleil \u00e0 la Mosqu\u00e9e Espagnole",
-    "March\u00e9s artisanaux",
+    "Coucher de soleil à la Mosquée Espagnole",
+    "Marchés artisanaux",
     "Excursion aux cascades d'Akchour"
   ],
   "includes": [
-    "Transport depuis Marrakech ou F\u00e8s",
-    "2 nuits \u00e0 Dar Jasmine",
-    "Petit-d\u00e9jeuner quotidien",
-    "Visite guid\u00e9e de la m\u00e9dina",
-    "Excursion \u00e0 Akchour"
+    "Transport depuis Marrakech ou Fès",
+    "2 nuits à Dar Jasmine",
+    "Petit-déjeuner quotidien",
+    "Visite guidée de la médina",
+    "Excursion à Akchour"
   ],
   "images": [
-    "/images/chefchaouen-1.jpg",
-    "/images/chefchaouen-2.jpg",
-    "/images/chefchaouen-3.jpg",
-    "/images/chefchaouen-4.jpg"
+    "/images/chefchaouen-1.webp",
+    "/images/chefchaouen-2.webp",
+    "/images/chefchaouen-3.webp",
+    "/images/chefchaouen-4.webp"
   ],
   "cta": {
     "whatsapp": true,
     "form": true,
-    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20r\u00e9server%20Chefchaouen%20Perle%20Bleue"
+    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20réserver%20Chefchaouen%20Perle%20Bleue"
   },
-  "whatsapp_message": "Je souhaite r\u00e9server Chefchaouen \u2013 La Perle Bleue",
-  "subtitle": "Trois jours dans la ville bleue \u2014 m\u00e9dina, cascades et couchers de soleil inoubliables.",
-  "departures": []
+  "whatsapp_message": "Je souhaite réserver Chefchaouen – La Perle Bleue",
+  "subtitle": "Trois jours dans la ville bleue — médina, cascades et couchers de soleil inoubliables.",
+  "departures": [
+    {
+      "date": "2026-05-10",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%2010%20Mai"
+    },
+    {
+      "date": "2026-06-05",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%205%20Juin"
+    },
+    {
+      "date": "2026-07-10",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%2010%20Juillet"
+    },
+    {
+      "date": "2026-09-15",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%2015%20Septembre"
+    },
+    {
+      "date": "2026-10-01",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%201%20Octobre"
+    }
+  ],
+  "description": "Trois jours dans la ville bleue — médina, cascades et couchers de soleil inoubliables."
 }

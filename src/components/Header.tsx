@@ -1,105 +1,108 @@
 'use client';
 import { usePathname } from 'next/navigation';
 import { useAnalytics } from '@/hooks/useAnalytics';
-
-const slugMap: Record<string, string> = {
-  'sahara-3-days': 'sahara-3-jours',
-  'imperial-cities': 'villes-imperiales',
-  'atlas-escape': 'escapade-atlas',
-  'chefchaouen-blue-pearl': 'chefchaouen-perle-bleue',
-  'akchour-waterfalls': 'akchour-cascades',
-  'marrakech-agafay': 'marrakech-agafay',
-  'morocco-grand-tour': 'maroc-grand-tour',
-  'maroc-grand-tour': 'morocco-grand-tour',
-  'sahara-3-jours': 'sahara-3-days',
-  'villes-imperiales': 'imperial-cities',
-  'escapade-atlas': 'atlas-escape',
-  'chefchaouen-perle-bleue': 'chefchaouen-blue-pearl',
-  'akchour-cascades': 'akchour-waterfalls',
-};
+import { useState } from 'react';
+import { toFrenchSlug, toEnglishSlug } from '@/lib/slugMap';
+import MobileDrawer from './MobileDrawer';
 
 export default function Header() {
-  let pathname = usePathname();
+  const pathname = usePathname();
   const { trackWhatsAppClick, trackLanguageSwitch } = useAnalytics();
+  const isFr = pathname.startsWith('/fr');
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
-  if (pathname.endsWith('/') && pathname !== '/') {
-    pathname = pathname.slice(0, -1);
-  }
-
-  const isFrench = pathname.startsWith('/fr');
-  const homeLink = isFrench ? '/fr.html' : '/';
-  const toursLink = isFrench ? '/fr/tours.html' : '/tours.html';
-  const guidesLink = isFrench ? '/fr/guides.html' : '/guides.html';
-
-  let switchUrl = '/';
-  if (isFrench) {
-    const enPath = pathname.replace(/^\/fr/, '') || '/';
-    if (enPath === '/' || enPath === '/index.html') {
-      switchUrl = '/';
-    } else if (enPath === '/tours' || enPath === '/tours.html') {
-      switchUrl = '/tours.html';
-    } else if (enPath.startsWith('/tours/')) {
-      const slug = enPath.replace('/tours/', '').replace('.html', '');
-      const enSlug = slugMap[slug] || slug;
-      switchUrl = `/tours/${enSlug}.html`;
-    } else {
-      switchUrl = '/';
-    }
+  let switchTarget = '/';
+  if (pathname === '/' || pathname === '/index.html') {
+    switchTarget = '/fr.html';
+  } else if (pathname === '/fr' || pathname === '/fr.html') {
+    switchTarget = '/';
+  } else if (pathname === '/tours' || pathname === '/tours.html') {
+    switchTarget = '/fr/tours.html';
+  } else if (pathname === '/fr/tours' || pathname === '/fr/tours.html') {
+    switchTarget = '/tours.html';
+  } else if (pathname.startsWith('/tours/')) {
+    const slug = pathname.replace(/^\/tours\//, '').replace('.html', '');
+    switchTarget = `/fr/tours/${toFrenchSlug(slug)}.html`;
+  } else if (pathname.startsWith('/fr/tours/')) {
+    const slug = pathname.replace(/^\/fr\/tours\//, '').replace('.html', '');
+    switchTarget = `/tours/${toEnglishSlug(slug)}.html`;
   } else {
-    if (pathname === '/' || pathname === '/index.html') {
-      switchUrl = '/fr.html';
-    } else if (pathname === '/tours' || pathname === '/tours.html') {
-      switchUrl = '/fr/tours.html';
-    } else if (pathname.startsWith('/tours/')) {
-      const slug = pathname.replace('/tours/', '').replace('.html', '');
-      const frSlug = slugMap[slug] || slug;
-      switchUrl = `/fr/tours/${frSlug}.html`;
-    } else {
-      switchUrl = '/fr.html';
-    }
+    switchTarget = isFr ? '/' : '/fr.html';
   }
 
-  const switchLabel = isFrench ? 'EN' : 'FR';
+  const handleLangSwitch = () => {
+    trackLanguageSwitch(isFr ? 'fr' : 'en', isFr ? 'en' : 'fr');
+    setDrawerOpen(false);
+  };
+
+  const handleWhatsApp = () => {
+    trackWhatsAppClick();
+    setDrawerOpen(false);
+  };
 
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between gap-2">
-        <a href={homeLink} className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition flex-shrink-0">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+        {/* Logo */}
+        <a href={isFr ? '/fr.html' : '/'} className="flex items-center gap-2 hover:opacity-80 transition">
           <img
-            src="/images/LOGO.jpeg"
+            src="/images/LOGO.webp"
             alt="Y&ZLand Tours"
-            className="h-14 sm:h-40 w-auto object-contain flex-shrink-0"
+            className="h-10 sm:h-40 w-auto object-contain"
           />
         </a>
-        <nav className="flex items-center gap-2 sm:gap-4 md:gap-6 text-xs sm:text-sm font-medium flex-wrap justify-end">
-          <a href={homeLink} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
-            {isFrench ? 'Accueil' : 'Home'}
+
+        {/* Desktop Navigation */}
+        <nav className="hidden lg:flex items-center gap-6 text-sm font-medium">
+          <a href={isFr ? '/fr.html' : '/'} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
+            {isFr ? 'Accueil' : 'Home'}
           </a>
-          <a href={toursLink} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
-            {isFrench ? 'Circuits' : 'Tours'}
+          <a href={isFr ? '/fr/tours.html' : '/tours.html'} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
+            {isFr ? 'Circuits' : 'Tours'}
           </a>
-          <a href={guidesLink} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
-            {isFrench ? 'Guides' : 'Guides'}
+          <a href={isFr ? '/fr/guides.html' : '/guides.html'} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
+            {isFr ? 'Guides' : 'Guides'}
           </a>
           <a href="/contact.html" className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
             Contact
           </a>
           <a
-            href={switchUrl}
-            onClick={() => trackLanguageSwitch(isFrench ? 'fr' : 'en', isFrench ? 'en' : 'fr')}
-            className="text-[10px] sm:text-xs font-bold bg-gray-100 hover:bg-gray-200 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded transition whitespace-nowrap"
+            href={switchTarget}
+            onClick={handleLangSwitch}
+            className="text-xs font-bold bg-gray-100 hover:bg-gray-200 px-2 py-1 rounded transition whitespace-nowrap"
           >
-            {switchLabel}
+            {isFr ? 'EN' : 'FR'}
           </a>
           <a
             href="https://wa.me/212619852591"
             target="_blank"
             onClick={() => trackWhatsAppClick()}
-            className="bg-green-600 text-white px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm hover:bg-green-700 transition whitespace-nowrap"
+            className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition whitespace-nowrap"
           >
             WhatsApp
           </a>
         </nav>
+
+        {/* Mobile Menu Trigger – minimal, editorial */}
+        <button
+          className="lg:hidden text-[#7A8B74] hover:text-[#C96A3D] transition-colors text-sm font-medium tracking-wide uppercase"
+          onClick={() => setDrawerOpen(true)}
+          aria-label="Menu"
+        >
+          Menu
+        </button>
+      </div>
+
+      {/* Mobile Drawer */}
+      <div className="lg:hidden">
+        <MobileDrawer
+          isOpen={drawerOpen}
+          onClose={() => setDrawerOpen(false)}
+          isFr={isFr}
+          switchTarget={switchTarget}
+          onLangSwitch={handleLangSwitch}
+          onWhatsAppClick={handleWhatsApp}
+        />
       </div>
     </header>
   );

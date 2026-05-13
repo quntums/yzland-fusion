@@ -23,10 +23,10 @@
     "Akchour excursion"
   ],
   "images": [
-    "/images/chefchaouen-1.jpg",
-    "/images/chefchaouen-2.jpg",
-    "/images/chefchaouen-3.jpg",
-    "/images/chefchaouen-4.jpg"
+    "/images/chefchaouen-1.webp",
+    "/images/chefchaouen-2.webp",
+    "/images/chefchaouen-3.webp",
+    "/images/chefchaouen-4.webp"
   ],
   "cta": {
     "whatsapp": true,
@@ -35,5 +35,31 @@
   },
   "whatsapp_message": "I'd like to book Chefchaouen \u2013 Blue Pearl",
   "subtitle": "Three days in Morocco's Blue City \u2014 medina alleys, waterfalls, and unforgettable sunsets.",
-  "departures": []
+  "departures": [
+    {
+      "date": "2026-05-10",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%2010%20Mai"
+    },
+    {
+      "date": "2026-06-05",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%205%20Juin"
+    },
+    {
+      "date": "2026-07-10",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%2010%20Juillet"
+    },
+    {
+      "date": "2026-09-15",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%2015%20Septembre"
+    },
+    {
+      "date": "2026-10-01",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Chefchaouen%20Blue%20Pearl%20pour%20le%201%20Octobre"
+    }
+  ]
 }

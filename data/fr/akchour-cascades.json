@@ -1,37 +1,64 @@
 {
   "slug": "akchour-cascades",
-  "title": "Akchour \u2013 Cascades et Nature",
+  "title": "Akchour – Cascades et Nature",
   "price_from": 180,
   "duration": "2 Jours",
   "route": [
-    "Chefchaouen \u2192 Pont de Dieu",
-    "Pont de Dieu \u2192 Grande Cascade",
-    "Grande Cascade \u2192 Retour"
+    "Chefchaouen → Pont de Dieu",
+    "Pont de Dieu → Grande Cascade",
+    "Grande Cascade → Retour"
   ],
   "highlights": [
     "Arche rocheuse du Pont de Dieu",
-    "Baignade \u00e0 la Grande Cascade",
-    "Randonn\u00e9e en for\u00eat de c\u00e8dres",
+    "Baignade à la Grande Cascade",
+    "Randonnée en forêt de cèdres",
     "Pique-nique en montagne"
   ],
   "includes": [
     "Transport depuis Chefchaouen",
-    "1 nuit en g\u00eete de montagne",
+    "1 nuit en gîte de montagne",
     "Tous les repas",
-    "Guide de montagne certifi\u00e9"
+    "Guide de montagne certifié"
   ],
   "images": [
-    "/images/akchour-1.jpg",
-    "/images/akchour-2.jpg",
-    "/images/akchour-3.jpg",
-    "/images/akchour-4.jpg"
+    "/images/akchour-1.webp",
+    "/images/akchour-2.webp",
+    "/images/akchour-3.webp",
+    "/images/akchour-4.webp"
   ],
   "cta": {
     "whatsapp": true,
     "form": true,
-    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20r\u00e9server%20Akchour%20Cascades"
+    "payment_link": "https://wa.me/212619852591?text=Je%20souhaite%20réserver%20Akchour%20Cascades"
   },
-  "whatsapp_message": "Je souhaite r\u00e9server Akchour \u2013 Cascades et Nature",
-  "subtitle": "Deux jours au c\u0153ur des cascades d'Akchour \u2014 Pont de Dieu, Grande Cascade et for\u00eats de c\u00e8dres.",
-  "departures": []
+  "whatsapp_message": "Je souhaite réserver Akchour – Cascades et Nature",
+  "subtitle": "Deux jours au cœur des cascades d'Akchour — Pont de Dieu, Grande Cascade et forêts de cèdres.",
+  "departures": [
+    {
+      "date": "2026-05-15",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%2015%20Mai"
+    },
+    {
+      "date": "2026-06-01",
+      "spots": 8,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%201%20Juin"
+    },
+    {
+      "date": "2026-06-15",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%2015%20Juin"
+    },
+    {
+      "date": "2026-07-01",
+      "spots": 8,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%201%20Juillet"
+    },
+    {
+      "date": "2026-09-01",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%201%20Septembre"
+    }
+  ],
+  "description": "Deux jours au cœur des cascades d'Akchour — Pont de Dieu, Grande Cascade et forêts de cèdres."
 }

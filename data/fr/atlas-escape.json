@@ -19,10 +19,10 @@
     "Tous les repas inclus"
   ],
   "images": [
-    "/images/atlas-1.jpg",
-    "/images/atlas-2.jpg",
-    "/images/atlas-3.jpg",
-    "/images/atlas-mountains.jpg"
+    "/images/atlas-1.webp",
+    "/images/atlas-2.webp",
+    "/images/atlas-3.webp",
+    "/images/atlas-mountains.webp"
   ],
   "cta": {
     "whatsapp": true,
@@ -52,5 +52,6 @@
       "spots": 2,
       "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20l'Escapade%20dans%20l'Atlas%20pour%2029-30%20Juin"
     }
-  ]
+  ],
+  "description": "Deux jours dans le Haut Atlas — villages berbères, forêts de cèdres et une nuit chez l'habitant à 2100m."
 }

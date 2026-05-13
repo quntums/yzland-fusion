@@ -20,12 +20,12 @@
     "Accommodation & meals"
   ],
   "images": [
-    "/images/imperial-1.jpg",
-    "/images/imperial-2.jpg",
-    "/images/imperial-3.jpg",
-    "/images/imperial-4.jpg",
-    "/images/imperial-5.jpg",
-    "/images/marrakech-medina.jpg"
+    "/images/imperial-1.webp",
+    "/images/imperial-2.webp",
+    "/images/imperial-3.webp",
+    "/images/imperial-4.webp",
+    "/images/imperial-5.webp",
+    "/images/marrakech-medina.webp"
   ],
   "cta": {
     "whatsapp": true,

@@ -25,7 +25,7 @@
     "Licensed guide"
   ],
   "images": [
-    "/images/luxury-desert-camp.jpg"
+    "/images/luxury-desert-camp.webp"
   ],
   "cta": {
     "whatsapp": true,
@@ -34,6 +34,32 @@
   },
   "whatsapp_message": "I'd like to book Marrakech & Agafay",
   "subtitle": "From Marrakech's medina to the Agafay desert \u2014 hot air balloon, palaces, and dinner under the stars.",
-  "departures": [],
+  "departures": [
+    {
+      "date": "2026-05-20",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Marrakech%20%26%20Agafay%20pour%20le%2020%20Mai"
+    },
+    {
+      "date": "2026-06-10",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Marrakech%20%26%20Agafay%20pour%20le%2010%20Juin"
+    },
+    {
+      "date": "2026-07-15",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Marrakech%20%26%20Agafay%20pour%20le%2015%20Juillet"
+    },
+    {
+      "date": "2026-09-20",
+      "spots": 5,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Marrakech%20%26%20Agafay%20pour%20le%2020%20Septembre"
+    },
+    {
+      "date": "2026-10-10",
+      "spots": 4,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Marrakech%20%26%20Agafay%20pour%20le%2010%20Octobre"
+    }
+  ],
   "heroPlaceholder": true
 }

@@ -21,10 +21,10 @@
     "Certified mountain guide"
   ],
   "images": [
-    "/images/akchour-1.jpg",
-    "/images/akchour-2.jpg",
-    "/images/akchour-3.jpg",
-    "/images/akchour-4.jpg"
+    "/images/akchour-1.webp",
+    "/images/akchour-2.webp",
+    "/images/akchour-3.webp",
+    "/images/akchour-4.webp"
   ],
   "cta": {
     "whatsapp": true,
@@ -33,5 +33,31 @@
   },
   "whatsapp_message": "I'd like to book Akchour \u2013 Waterfalls & Nature",
   "subtitle": "Two days in the heart of Akchour's waterfalls \u2014 Pont de Dieu, Grand Cascade, and cedar forests.",
-  "departures": []
+  "departures": [
+    {
+      "date": "2026-05-15",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%2015%20Mai"
+    },
+    {
+      "date": "2026-06-01",
+      "spots": 8,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%201%20Juin"
+    },
+    {
+      "date": "2026-06-15",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%2015%20Juin"
+    },
+    {
+      "date": "2026-07-01",
+      "spots": 8,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%201%20Juillet"
+    },
+    {
+      "date": "2026-09-01",
+      "spots": 6,
+      "link": "https://wa.me/212619852591?text=Je%20souhaite%20r%C3%A9server%20Akchour%20Waterfalls%20pour%20le%201%20Septembre"
+    }
+  ]
 }
