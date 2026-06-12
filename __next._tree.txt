@@ -1,0 +1,9 @@
+:HL["/_next/static/chunks/0bc4gea5nqf_3.css","style"]
+:HL["/images/akchour-4.webp","image"]
+:HL["/images/atlas-3.webp","image"]
+:HL["/images/chefchaouen-1.webp","image"]
+:HL["/images/imperial-5.webp","image"]
+:HL["/images/morocco-grand-tour/agafay-balloon.webp","image"]
+:HL["/images/morocco-grand-tour/hero.webp","image"]
+:HL["/images/sahara-1.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"MIHFJiwR0_F2TlvdXevpv"}
