@@ -1,12 +1,12 @@
 {
   "slug": "marrakech-agafay",
-  "title": "Marrakech & Agafay \u2013 City to Desert",
+  "title": "Marrakech & Agafay – City to Desert",
   "price_from": 390,
   "duration": "3 Days",
   "route": [
-    "Marrakech \u2192 Medina",
-    "Marrakech \u2192 Majorelle Garden \u2192 Agafay",
-    "Agafay \u2192 Balloon \u2192 Marrakech"
+    "Marrakech → Medina",
+    "Marrakech → Majorelle Garden → Agafay",
+    "Agafay → Balloon → Marrakech"
   ],
   "highlights": [
     "Hot air balloon at sunrise",
@@ -25,6 +25,9 @@
     "Licensed guide"
   ],
   "images": [
+    "/images/morocco-grand-tour/agafay-balloon.webp",
+    "/images/marrakech-bahia-palace.webp",
+    "/images/sahara-luxury-camp-night.webp",
     "/images/luxury-desert-camp.webp"
   ],
   "cta": {
@@ -33,7 +36,7 @@
     "payment_link": "https://wa.me/212619852591?text=I'd%20like%20to%20book%20Marrakech%20%26%20Agafay"
   },
   "whatsapp_message": "I'd like to book Marrakech & Agafay",
-  "subtitle": "From Marrakech's medina to the Agafay desert \u2014 hot air balloon, palaces, and dinner under the stars.",
+  "subtitle": "From Marrakech's medina to the Agafay desert — hot air balloon, palaces, and dinner under the stars.",
   "departures": [
     {
       "date": "2026-05-20",

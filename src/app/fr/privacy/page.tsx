@@ -8,9 +8,10 @@ export default function PrivacyPolicyFrPage() {
       <h2>1. Qui sommes-nous</h2>
       <p>YZLand Travel est un voyagiste basé au Maroc proposant des circuits privés guidés.</p>
       <ul>
-        <li><strong>Email :</strong> contact@yzland.com</li>
+        <li><strong>Email :</strong> Chkouriyoussef3@gmail.com</li>
         <li><strong>Téléphone / WhatsApp :</strong> +212 619 852 591</li>
-      </ul>
+      <li><strong>Données analytiques :</strong> 90 jours (IP anonymisée, stockée dans Cloudflare KV).</li>
+</ul>
       <h2>2. Données collectées</h2>
       <p>Nous collectons uniquement les données que vous fournissez via WhatsApp, email ou formulaire.</p>
       <h2>3. Utilisation</h2>
@@ -24,7 +25,7 @@ export default function PrivacyPolicyFrPage() {
       <h2>7. Cookies</h2>
       <p>Cookies essentiels toujours actifs. Cookies analytiques avec votre consentement. Gérez‑les via Paramètres des cookies dans le pied de page.</p>
       <h2>8. Contact</h2>
-      <p>Email : contact@yzland.com | WhatsApp : +212 619 852 591</p>
+      <p>Email : Chkouriyoussef3@gmail.com | WhatsApp : +212 619 852 591</p>
       <Footer />
     </main>
   );

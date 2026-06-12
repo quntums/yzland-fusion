@@ -26,6 +26,10 @@ export default function Header() {
   } else if (pathname.startsWith('/fr/tours/')) {
     const slug = pathname.replace(/^\/fr\/tours\//, '').replace('.html', '');
     switchTarget = `/tours/${toEnglishSlug(slug)}.html`;
+  } else if (pathname.startsWith('/guides/')) {
+    switchTarget = pathname.replace('/guides/', '/fr/guides/');
+  } else if (pathname.startsWith('/fr/guides/')) {
+    switchTarget = pathname.replace('/fr/guides/', '/guides/');
   } else {
     switchTarget = isFr ? '/' : '/fr.html';
   }
@@ -63,7 +67,7 @@ export default function Header() {
           <a href={isFr ? '/fr/guides.html' : '/guides.html'} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
             {isFr ? 'Guides' : 'Guides'}
           </a>
-          <a href="/contact.html" className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
+          <a href={isFr ? '/fr/contact.html' : '/contact.html'} className="text-gray-600 hover:text-amber-700 transition whitespace-nowrap">
             Contact
           </a>
           <a
@@ -74,7 +78,7 @@ export default function Header() {
             {isFr ? 'EN' : 'FR'}
           </a>
           <a
-            href="https://wa.me/212619852591"
+            href="https://wa.me/212621405131"
             target="_blank"
             onClick={() => trackWhatsAppClick()}
             className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition whitespace-nowrap"

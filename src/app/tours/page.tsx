@@ -36,9 +36,9 @@ export default function ToursPage() {
             <h3 className="text-lg font-semibold">Not sure which tour to choose?</h3>
             <p className="text-sm text-gray-600">We'll help you pick the perfect experience.</p>
             <a
-              href={`https://wa.me/212619852591?text=${whatsappMsg}`}
+              href={`https://wa.me/212621405131?text=${whatsappMsg}`}
               target="_blank"
-              className="inline-block w-full bg-[#C96A3D] hover:bg-[#B85A30] text-white font-semibold py-3 rounded-xl text-base"
+              className="inline-block w-full bg-[#B85A30] hover:bg-[#9B4420] text-white font-semibold py-3 rounded-xl text-base"
             >
               💬 Get a recommendation
             </a>

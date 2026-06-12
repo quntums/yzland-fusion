@@ -51,14 +51,6 @@ export default function MobileTourConversion({ tour, testimonials, slug, isFr = 
 
   return (
     <div className="lg:hidden max-w-[640px] mx-auto px-4 py-6 space-y-6">
-      {tour.images && tour.images.length > 0 && (
-        <div className="grid grid-cols-2 gap-2">
-          {tour.images.slice(0, 4).map((img, i) => (
-            <img key={i} src={img} alt={`${tour.title} - image ${i + 1}`} className="w-full h-32 object-cover rounded-xl" loading="lazy" />
-          ))}
-        </div>
-      )}
-
       {/* 1. Hero Section */}
       <div className="text-center space-y-3">
         <h1 className="text-2xl font-bold text-[#C9A45C]">{tour.title}</h1>
@@ -69,7 +61,7 @@ export default function MobileTourConversion({ tour, testimonials, slug, isFr = 
           <span>📍 {fr ? 'Marrakech' : 'Marrakech'}</span>
         </div>
         <a
-          href={`https://wa.me/212619852591?text=${whatsappMsg}`}
+          href={`https://wa.me/212621405131?text=${whatsappMsg}`}
           target="_blank"
           onClick={() => track('hero_cta_click')}
           className="inline-block w-full bg-[#C96A3D] hover:bg-[#B85A30] text-white font-semibold py-3 rounded-xl text-base"
@@ -101,7 +93,7 @@ export default function MobileTourConversion({ tour, testimonials, slug, isFr = 
         <h3 className="text-lg font-semibold">{fr ? 'Vous voulez personnaliser ce circuit ?' : 'Want to customize this tour?'}</h3>
         <p className="text-sm text-gray-600">{fr ? 'Ajustez les dates, les hôtels ou les activités – nous adaptons tout pour vous.' : 'Adjust dates, hotels, or activities – we\'ll tailor it for you.'}</p>
         <a
-          href={`https://wa.me/212619852591?text=${whatsappMsg}`}
+          href={`https://wa.me/212621405131?text=${whatsappMsg}`}
           target="_blank"
           onClick={() => track('mid_cta_click')}
           className="inline-block w-full bg-[#C96A3D] hover:bg-[#B85A30] text-white font-semibold py-3 rounded-xl text-base"
@@ -141,7 +133,7 @@ export default function MobileTourConversion({ tour, testimonials, slug, isFr = 
           <span>📍 {fr ? 'Marrakech' : 'Marrakech'}</span>
         </div>
         <a
-          href={`https://wa.me/212619852591?text=${whatsappMsg}`}
+          href={`https://wa.me/212621405131?text=${whatsappMsg}`}
           target="_blank"
           onClick={() => track('quickfacts_cta_click')}
           className="inline-block w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-xl text-base"
@@ -182,7 +174,7 @@ export default function MobileTourConversion({ tour, testimonials, slug, isFr = 
       <div className="bg-[#FCFAF7] border border-[#E8DDD0] rounded-2xl p-5 text-center space-y-3">
         <h3 className="text-lg font-semibold">{fr ? 'Commencez à planifier votre voyage aujourd\'hui' : 'Start planning your trip today'}</h3>
         <a
-          href={`https://wa.me/212619852591?text=${whatsappMsg}`}
+          href={`https://wa.me/212621405131?text=${whatsappMsg}`}
           target="_blank"
           onClick={() => track('final_cta_click')}
           className="inline-block w-full bg-[#C96A3D] hover:bg-[#B85A30] text-white font-semibold py-3 rounded-xl text-base"

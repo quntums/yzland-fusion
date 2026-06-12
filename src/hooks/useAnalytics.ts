@@ -3,19 +3,25 @@ import { useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 
 const STORAGE_KEY = 'yzland-cookie-consent';
+const COLLECTOR_URL = 'https://yzland-analytics-collector.alton91.workers.dev';
 
 function record(event: string, payload?: Record<string, unknown>) {
   const raw = localStorage.getItem('yzland-analytics');
   const log: Array<{ ts: number; event: string; payload?: Record<string, unknown> }> = raw ? JSON.parse(raw) : [];
   log.push({ ts: Date.now(), event, payload });
   localStorage.setItem('yzland-analytics', JSON.stringify(log.slice(-200)));
-  
+
   const consent = localStorage.getItem(STORAGE_KEY);
   if (consent) {
     try {
       const parsed = JSON.parse(consent);
       if (parsed.analytics) {
-        window.dispatchEvent(new CustomEvent('yz-analytics-event', { detail: { event, payload } }));
+        // Fire-and-forget to the collector
+        fetch(COLLECTOR_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ event, payload, ts: Date.now() }),
+        }).catch(() => {});
       }
     } catch {}
   }

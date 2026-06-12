@@ -21,10 +21,10 @@
     "Guide de montagne certifié"
   ],
   "images": [
+    "/images/akchour-4.webp",
     "/images/akchour-1.webp",
     "/images/akchour-2.webp",
-    "/images/akchour-3.webp",
-    "/images/akchour-4.webp"
+    "/images/akchour-3.webp"
   ],
   "cta": {
     "whatsapp": true,

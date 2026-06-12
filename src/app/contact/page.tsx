@@ -30,15 +30,15 @@ export default function ContactPage() {
           <div>
             <label htmlFor="tour" className="block text-sm font-medium text-gray-800 mb-1">Tour Interest</label>
             <select name="tour" id="tour" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm bg-white focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none">
-              <option value="">Select a tour</option>
-              <option value="Grand Morocco Tour 9D">Grand Morocco Tour – 9 Days</option>
-              <option value="Sahara 3D">Sahara 3‑Day Experience</option>
-              <option value="Imperial Cities">Imperial Cities Tour</option>
-              <option value="Chefchaouen">Chefchaouen – Blue Pearl</option>
-              <option value="Akchour">Akchour – Waterfalls & Nature</option>
-              <option value="Marrakech Agafay">Marrakech & Agafay</option>
-              <option value="Atlas Escape">Atlas Mountains Escape</option>
-              <option value="Other">Other / Custom</option>
+              <option style={{ color: "#1a1a1a" }} value="">Select a tour</option>
+              <option style={{ color: "#1a1a1a" }} value="Grand Morocco Tour 9D">Grand Morocco Tour – 9 Days</option>
+              <option style={{ color: "#1a1a1a" }} value="Sahara 3D">Sahara 3‑Day Experience</option>
+              <option style={{ color: "#1a1a1a" }} value="Imperial Cities">Imperial Cities Tour</option>
+              <option style={{ color: "#1a1a1a" }} value="Chefchaouen">Chefchaouen – Blue Pearl</option>
+              <option style={{ color: "#1a1a1a" }} value="Akchour">Akchour – Waterfalls & Nature</option>
+              <option style={{ color: "#1a1a1a" }} value="Marrakech Agafay">Marrakech & Agafay</option>
+              <option style={{ color: "#1a1a1a" }} value="Atlas Escape">Atlas Mountains Escape</option>
+              <option style={{ color: "#1a1a1a" }} value="Other">Other / Custom</option>
             </select>
           </div>
           <div>
@@ -48,6 +48,14 @@ export default function ContactPage() {
           <button type="submit" className="w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 rounded-lg transition-colors text-sm">Send Message</button>
           <p className="text-xs text-gray-500 text-center mt-4">We respect your privacy. Your data is never shared. By submitting, you agree to our Privacy Policy.</p>
         </form>
+        <div className="text-center mt-8 paypal-option">
+          <p className="text-sm text-gray-500">Or pay instantly via PayPal:</p>
+          <a href="https://www.paypal.me/chkouri" target="_blank" className="inline-block bg-[#ffc439] text-gray-900 px-8 py-4 rounded-xl font-bold hover:bg-[#f5b000] transition mt-2">
+            💳 Pay with PayPal
+          </a>
+          <p className="text-xs text-gray-400 mt-1">No PayPal account? Credit card accepted.</p>
+        </div>
+
         <div className="text-center mt-8">
           <p className="text-sm text-gray-500">Or reach us on WhatsApp:</p>
           <a href="https://wa.me/212619852591" target="_blank" className="inline-block mt-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors text-sm">Chat on WhatsApp</a>

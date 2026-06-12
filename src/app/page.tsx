@@ -6,6 +6,7 @@ import EnhancedTestimonials from "@/components/EnhancedTestimonials";
 import Footer from "@/components/Footer";
 import HomepageMobileConversion from "@/components/HomepageMobileConversion";
 import TrustCounters from "@/components/TrustCounters";
+import GuestGallery from "@/components/GuestGallery";
 import { getAllTours } from "@/lib/tours";
 import { saharaTestimonials, imperialTestimonials, chefchaouenTestimonial } from "@/lib/testimonials";
 import type { Metadata } from 'next';
@@ -40,9 +41,10 @@ export default function HomePage() {
             ))}
           </div>
         </main>
+        <FounderBlock />
         <EnhancedTestimonials testimonials={featuredTestimonials} />
       </div>
-      <FounderBlock />
+      <GuestGallery isFr={false} />
       <Footer />
     </>
   );

@@ -57,6 +57,15 @@ function CTABlock({ variant, tourTitle, heroMicrocopy, midHeadline, midMicrocopy
       <h2 className="text-3xl font-bold text-[#C9A45C] mb-2">{tourTitle}</h2>
       {heroMicrocopy && <p className="text-gray-500 mb-4">{heroMicrocopy}</p>}
       <a href={`https://wa.me/212619852591?text=${whatsappMsg}`} target="_blank" onClick={trackAndBook} className={btn}><span>💬</span> {fr ? 'Vérifier la disponibilité' : 'Check Availability'}</a>
+      
+          <div className="text-center mt-4 paypal-option">
+            <p className="text-sm text-gray-500">{fr ? 'Ou payez instantanément via PayPal :' : 'Or pay instantly via PayPal:'}</p>
+            <a href="https://www.paypal.me/chkouri" target="_blank" className="inline-block bg-[#ffc439] text-gray-900 px-8 py-4 rounded-xl font-bold hover:bg-[#f5b000] transition mt-2">
+              {fr ? '💳 Payer avec PayPal' : '💳 Pay with PayPal'}
+            </a>
+            <p className="text-xs text-gray-400 mt-1">{fr ? 'Pas de compte PayPal ? Carte bancaire acceptée.' : 'No PayPal account? Credit card accepted.'}</p>
+          </div>
+
       <div className="mt-4 space-y-1 text-sm text-[#6B6B6B]"><p>✓ {fr ? 'Réponse en moins d\'une heure' : 'Reply within 1 hour'}</p><p>✓ {fr ? 'Sans engagement' : 'No obligation'}</p><p>✓ {fr ? 'Expert local' : 'Local expert'}</p></div>
     </section>
   );
@@ -65,6 +74,15 @@ function CTABlock({ variant, tourTitle, heroMicrocopy, midHeadline, midMicrocopy
       <h3 className="text-2xl font-semibold text-gray-900 mb-3">{midHeadline}</h3>
       {midMicrocopy && <p className="text-gray-500 mb-4">{midMicrocopy}</p>}
       <a href={`https://wa.me/212619852591?text=${whatsappMsg}`} target="_blank" onClick={trackAndBook} className={btn}><span>💬</span> {fr ? 'Demander sur WhatsApp' : 'Ask on WhatsApp'}</a>
+      
+          <div className="text-center mt-4 paypal-option">
+            <p className="text-sm text-gray-500">{fr ? 'Ou payez instantanément via PayPal :' : 'Or pay instantly via PayPal:'}</p>
+            <a href="https://www.paypal.me/chkouri" target="_blank" className="inline-block bg-[#ffc439] text-gray-900 px-8 py-4 rounded-xl font-bold hover:bg-[#f5b000] transition mt-2">
+              {fr ? '💳 Payer avec PayPal' : '💳 Pay with PayPal'}
+            </a>
+            <p className="text-xs text-gray-400 mt-1">{fr ? 'Pas de compte PayPal ? Carte bancaire acceptée.' : 'No PayPal account? Credit card accepted.'}</p>
+          </div>
+
     </section>
   );
   return (
@@ -72,6 +90,15 @@ function CTABlock({ variant, tourTitle, heroMicrocopy, midHeadline, midMicrocopy
       <h3 className="text-2xl font-semibold text-gray-900 mb-3">{endHeadline}</h3>
       {endMicrocopy && <p className="text-gray-500 mb-4">{endMicrocopy}</p>}
       <a href={`https://wa.me/212619852591?text=${whatsappMsg}`} target="_blank" onClick={trackAndBook} className={btn}><span>💬</span> {fr ? 'Écrivez-nous sur WhatsApp' : 'Message Us on WhatsApp'}</a>
+      
+          <div className="text-center mt-4 paypal-option">
+            <p className="text-sm text-gray-500">{fr ? 'Ou payez instantanément via PayPal :' : 'Or pay instantly via PayPal:'}</p>
+            <a href="https://www.paypal.me/chkouri" target="_blank" className="inline-block bg-[#ffc439] text-gray-900 px-8 py-4 rounded-xl font-bold hover:bg-[#f5b000] transition mt-2">
+              {fr ? '💳 Payer avec PayPal' : '💳 Pay with PayPal'}
+            </a>
+            <p className="text-xs text-gray-400 mt-1">{fr ? 'Pas de compte PayPal ? Carte bancaire acceptée.' : 'No PayPal account? Credit card accepted.'}</p>
+          </div>
+
       <div className="mt-4 text-sm text-[#6B6B6B]"><p>✓ {fr ? 'Aucun acompte pour se renseigner' : 'No upfront payment to inquire'}</p><p>✓ {fr ? 'Réponse rapide (moins d\'une heure)' : 'Fast response (under 1 hour)'}</p></div>
     </section>
   );
@@ -87,7 +114,7 @@ export default function TourPage({ tour, testimonials, slug, isFr = false }: Tou
   return (
     <main>
       {/* Desktop */}
-      <div className="hidden lg:block">
+      <div>
         {tour.images && tour.images.length > 0 && (
           <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
             {tour.images.map((img, i) => (

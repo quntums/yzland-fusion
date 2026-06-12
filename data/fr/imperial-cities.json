@@ -21,12 +21,10 @@
     "Petits-déjeuners quotidiens"
   ],
   "images": [
+    "/images/imperial-5.webp",
     "/images/imperial-1.webp",
     "/images/imperial-2.webp",
-    "/images/imperial-3.webp",
-    "/images/imperial-4.webp",
-    "/images/imperial-5.webp",
-    "/images/marrakech-medina.webp"
+    "/images/imperial-3.webp"
   ],
   "cta": {
     "whatsapp": true,

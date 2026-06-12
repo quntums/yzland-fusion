@@ -6,6 +6,7 @@ import EnhancedTestimonials from "@/components/EnhancedTestimonials";
 import Footer from "@/components/Footer";
 import HomepageMobileConversion from "@/components/HomepageMobileConversion";
 import TrustCounters from "@/components/TrustCounters";
+import GuestGallery from "@/components/GuestGallery";
 import fs from 'fs';
 import path from 'path';
 import { saharaTestimonials, imperialTestimonials, chefchaouenTestimonial } from "@/lib/testimonials";
@@ -36,7 +37,7 @@ export default function FrHomePage() {
       <TrustStrip isFr={true} />
       <TrustCounters isFr={true} />
       <div className="lg:hidden">
-        <HomepageMobileConversion />
+        <HomepageMobileConversion isFr={true} />
       </div>
       <div className="hidden lg:block">
         <main className="max-w-6xl mx-auto px-4 py-20">
@@ -47,9 +48,10 @@ export default function FrHomePage() {
             ))}
           </div>
         </main>
+        <FounderBlock isFr={true} />
         <EnhancedTestimonials testimonials={featuredTestimonials} />
       </div>
-      <FounderBlock isFr={true} />
+      <GuestGallery isFr={true} />
       <Footer />
     </>
   );

@@ -45,7 +45,7 @@ export default function MobileTourCard({ slug, title, image, price, duration, hi
           </ul>
         )}
         <a
-          href={`https://wa.me/212619852591?text=${whatsappMsg}`}
+          href={`https://wa.me/212621405131?text=${whatsappMsg}`}
           target="_blank"
           className="block w-full text-center bg-[#C96A3D] hover:bg-[#B85A30] text-white font-semibold py-2 rounded-xl text-sm"
         >

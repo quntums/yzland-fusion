@@ -19,7 +19,7 @@ export default function MobileDrawer({
 }: MobileDrawerProps) {
   return (
     <>
-      {/* Backdrop – light, airy, not oppressive */}
+      {/* Backdrop – light, airy */}
       <div
         className={`fixed inset-0 z-40 bg-[#F6F0E8]/80 backdrop-blur-sm transition-opacity duration-300 ${
           isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
@@ -35,6 +35,15 @@ export default function MobileDrawer({
         }`}
         style={{ maxHeight: '90vh', overflowY: 'auto' }}
       >
+        {/* Portrait hero image */}
+        <div className="w-full h-48 overflow-hidden rounded-t-3xl">
+          <img
+            src="/images/chefchaouen-blue-medina.webp"
+            alt={isFr ? 'Voyageurs dans la médina bleue de Chefchaouen' : 'Travelers in Chefchaouen blue medina'}
+            className="w-full h-full object-cover"
+          />
+        </div>
+
         {/* Handle bar – subtle visual cue */}
         <div className="flex justify-center pt-4 pb-2">
           <div className="w-10 h-1 rounded-full bg-[#E8DDD0]" />
@@ -50,14 +59,12 @@ export default function MobileDrawer({
           <a href={isFr ? '/fr/guides.html' : '/guides.html'} onClick={onClose} className="hover:text-[#C96A3D] transition-colors">
             {isFr ? 'Guides' : 'Guides'}
           </a>
-          <a href="/contact.html" onClick={onClose} className="hover:text-[#C96A3D] transition-colors">
+          <a href={isFr ? '/fr/contact.html' : '/contact.html'} onClick={onClose} className="hover:text-[#C96A3D] transition-colors">
             Contact
           </a>
 
-          {/* Separator */}
           <div className="w-16 h-px bg-[#E8DDD0]" />
 
-          {/* Language toggle */}
           <a
             href={switchTarget}
             onClick={onLangSwitch}
@@ -66,9 +73,8 @@ export default function MobileDrawer({
             {isFr ? 'English' : 'Français'}
           </a>
 
-          {/* WhatsApp CTA – elegant, not aggressive */}
           <a
-            href="https://wa.me/212619852591"
+            href="https://wa.me/212621405131"
             target="_blank"
             onClick={onWhatsAppClick}
             className="mt-4 inline-flex items-center gap-2 bg-[#C96A3D] hover:bg-[#B85A30] text-white px-8 py-4 rounded-2xl text-lg font-medium transition-colors"

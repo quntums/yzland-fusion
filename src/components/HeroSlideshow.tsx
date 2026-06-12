@@ -6,9 +6,9 @@ interface HeroSlideshowProps {
 }
 
 const images = [
-  '/images/sahara-1.jpg',
-  '/images/imperial-2.jpg',
-  '/images/atlas-1.jpg',
+  '/images/erg-chebbi-sunset-dunes.webp',
+  '/images/meknes-bab-mansour.webp',
+  '/images/toubkal-mountain-hike.webp',
 ];
 
 export default function HeroSlideshow({ isFr = false }: HeroSlideshowProps) {
@@ -34,23 +34,36 @@ export default function HeroSlideshow({ isFr = false }: HeroSlideshowProps) {
           key={i}
           className="absolute inset-0 bg-cover bg-center transition-opacity duration-[2s] ease-in-out"
           style={{
-            backgroundImage: `linear-gradient(rgba(46,64,99,0.55), rgba(46,64,99,0.30)), url('${img}')`,
+            backgroundImage: `url('${img}')`,
             opacity: i === current ? 1 : 0,
             animation: i === current ? 'heroZoom 8s ease-out forwards' : 'none',
           }}
         />
       ))}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl tracking-tight">{headline}</h1>
-        <p className="text-xl md:text-2xl mb-10 drop-shadow-lg max-w-2xl">{subtitle}</p>
-        <a
-          href={isFr ? '/fr/tours.html' : '/tours.html'}
-          className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-10 py-5 rounded-xl text-xl transition-all shadow-2xl hover:scale-105"
-        >
-          {cta}
-        </a>
+
+      {/* Dégradé subtil pour relier l'image à la tablette */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[rgba(20,25,35,0.92)] via-[rgba(20,25,35,0.4)] to-transparent z-10" />
+
+      {/* Tablette de contenu protégée en bas */}
+      <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-black/80 via-black/50 to-transparent px-4 pb-10 pt-20">
+        <div className="max-w-2xl mx-auto text-center">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg tracking-tight">
+            {headline}
+          </h1>
+          <p className="text-lg md:text-xl text-white/90 mb-8 drop-shadow-md max-w-xl mx-auto">
+            {subtitle}
+          </p>
+          <a
+            href={isFr ? '/fr/tours.html' : '/tours.html'}
+            className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-8 py-4 rounded-xl text-lg transition-all shadow-2xl hover:scale-105"
+          >
+            {cta}
+          </a>
+        </div>
       </div>
-      <div className="absolute bottom-8 z-10 flex gap-3">
+
+      {/* Indicateurs de diapositive */}
+      <div className="absolute bottom-8 right-8 z-30 flex gap-3">
         {images.map((_, i) => (
           <button
             key={i}
